@@ -1,16 +1,15 @@
-import psutil
-# from stress import compile_and_execute_c_file
-from multiprocessing import Pool
-from functools import partial
-from info import get_processes_info, get_system_info, get_all_processes
-from config import learning_rate, discount_factor, epsilon, num_cores, stress_folder
-from stress import get_c_files
-from affinity import set_cpu_affinity
-import time
-import numpy as np
+import os
+import re
 import subprocess
-import threading
-import multiprocessing
+import time
+
+import numpy as np
+import psutil
+
+from config import learning_rate, discount_factor, epsilon, num_cores, stress_folder, gcc_path
+# from stress import compile_and_execute_c_file
+from info import get_processes_info, get_system_info, get_all_processes
+from stress import get_c_files
 
 
 def run_process():
@@ -68,46 +67,67 @@ class ProcessBalance:
         execute_time = []
         all_process = psutil.process_iter()
         # 编译 C 文件
-
-        process_name.append(str(c_file))
+        process_name = os.path.abspath(c_file)
+        # process_name.append(str(c_file))
         start_compile_time = time.time()
         # compile_process = subprocess.run(["gcc", c_file_path, "-o", "executable"])
-        compile_process = subprocess.Popen(["gcc", c_file, "-o", "executable"])
-        # compile_process = launch_c_program()
-        compile_pid = compile_process.pid  # 获取编译进程的 PID
-        action = self.choose_action(get_processes_info(compile_process))
-        set_cpu_affinity(compile_pid, action)
 
-        # 等待编译进程结束
-        compile_process.wait()
-        end_compile_time = time.time()
-        compile_time.append(end_compile_time - start_compile_time)
+        # '''linux下编译与执行'''
+        # compile_process = subprocess.Popen(["gcc", c_file, "-o", "executable"])
+        # # compile_process = launch_c_program()
+        #
+        # compile_pid = compile_process.pid  # 获取编译进程的 PID
+        # action = self.choose_action(get_processes_info(compile_process))
+        # set_cpu_affinity(compile_pid, action)
+        #
+        # # 等待编译进程结束
+        # compile_process.wait()
+        # end_compile_time = time.time()
+        # compile_time.append(end_compile_time - start_compile_time)
+        #
+        # # 获取编译进程的 CPU 使用率和内存使用率
+        # process_info_compile = get_processes_info(compile_pid)
+        # # compile_cpu_usage = psutil.Process(compile_pid).cpu_percent()
+        # # compile_memory_usage = psutil.Process(compile_pid).memory_percent()
+        #
+        # # 执行生成的可执行文件
+        # start_execute_time = time.time()
+        # execute_process = subprocess.Popen(["./executable"])
+        # execute_pid = execute_process.pid
+        #
+        # action = self.choose_action(get_processes_info(compile_process))
+        # set_cpu_affinity(execute_pid, action)
+        # process_info_execute = get_processes_info(execute_pid)
+        #
+        # # 等待执行结束
+        # execute_process.wait()
+        # end_execute_time = time.time()
+        # execute_time = end_execute_time - start_execute_time
 
-        # 获取编译进程的 CPU 使用率和内存使用率
-        compile_cpu_usage = psutil.Process(compile_pid).cpu_percent()
-        compile_memory_usage = psutil.Process(compile_pid).memory_percent()
+        '''windows下编译与执行'''
+        match = re.match(r'(.*)\.c', c_file)
+        execute_name = match.group(1) + ".exe"
+        compile_process = subprocess.Popen(["gcc", c_file, "-o", execute_name])
+        execute_process = subprocess.Popen([execute_name])
 
-        # 执行生成的可执行文件
-        start_execute_time = time.time()
-        execute_process = subprocess.Popen(["./executable"])
-        execute_pid = execute_process.pid
-        action = self.choose_action(get_processes_info(compile_process))
-        set_cpu_affinity(execute_pid, action)
-
-        # 等待执行结束
-        execute_process.wait()
-        end_execute_time = time.time()
-        execute_time = end_execute_time - start_execute_time
         return process_name, compile_time, execute_time
 
     def train(self, epochs):
         for epoch in range(epochs):
             system_info = get_system_info(True)
             c_files = get_c_files(stress_folder)
-            with Pool() as pool:
-                pool.map(self.compile_and_execute_c_file, c_files)
-                pool.close()
-                pool.join()
+            # threads = []
+            # # 多线程地启动
+            # start_time = time.time()
+            # for program in c_files:
+            #     thread = threading.Thread(target=self.compile_and_execute_c_file, args=(program))
+            #     thread.start()
+            #     threads.append(thread)
+            # end_time = time.time()
+            # total_time = end_time - start_time
+            for c_file in c_files:
+                self.compile_and_execute_c_file(c_file)
+            _ = 1
 
 
 def predict():

@@ -12,3 +12,5 @@ data_folder = os.path.join(os.path.dirname(__file__), '..', 'data')
 num_cores = 4
 save_folder = "save"
 stress_folder = os.path.join(os.path.dirname(__file__), '..', 'stress')
+
+gcc_path = r"D:\IDE\mingw64\bin"

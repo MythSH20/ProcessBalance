@@ -8,7 +8,7 @@ int fibonacci(int n) {
 }
 
 int main() {
-    int n = 10; // 要计算的斐波那契数列项数
+    int n = 10000; // 要计算的斐波那契数列项数
     for (int i = 0; i < n; i++) {
         //printf("%d ", fibonacci(i));
     }

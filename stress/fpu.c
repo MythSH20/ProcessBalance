@@ -1,12 +1,29 @@
 #include <stdio.h>
 #include <time.h>
 
-#define ITERATIONS 1000000 // 迭代次数
+#define ITERATIONS 10000 // 迭代次数
 
 void fpu_pressure_test() {
     double result = 0.0;
-    for (int i = 0; i < ITERATIONS; i++) {
-        result += (double)i / (i + 1); // 执行一系列浮点数运算
+    for (int j = 0; j < ITERATIONS; j++){
+        for (int i = 0; i < ITERATIONS; i++) {
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+            result += (double)i / (i + 1); // 执行一系列浮点数运算
+            result += (double)i * (i + 1); // 执行一系列浮点数运算
+        }
     }
 }
 
@@ -19,7 +36,7 @@ int main() {
     end_time = clock(); // 记录结束时间
 
     cpu_time_used = ((double) (end_time - start_time)) / CLOCKS_PER_SEC; // 计算 CPU 时间
-    //printf("FPU 压力测试完成，运行时间：%f 秒\n", cpu_time_used);
+    printf("FPU 压力测试完成，运行时间：%f 秒\n", cpu_time_used);
 
     return 0;
 }
