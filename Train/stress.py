@@ -52,5 +52,5 @@ def get_c_files(directory):
     return c_files
 
 # if __name__ == "__main__":
-#     c_file_path = "your_c_file.c"  # 替换为你的 C 文件路径
+#     c_file_path = "test.c"  #
 #     compile_and_execute_c_file(c_file_path)

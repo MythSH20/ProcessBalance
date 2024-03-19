@@ -1,133 +1,186 @@
 import os
 import re
 import subprocess
+import threading
 import time
+import platform
+import random
 
 import numpy as np
 import psutil
+import torch
+import torch.nn as nn
+import torch.optim as optim
 
 from config import learning_rate, discount_factor, epsilon, num_cores, stress_folder, gcc_path
 # from stress import compile_and_execute_c_file
 from info import get_processes_info, get_system_info, get_all_processes
 from stress import get_c_files
+from affinity import set_cpu_affinity
 
 
-def run_process():
-    start_time = time.time()
-    # 在这里运行你的进程
-    subprocess.run(["your_command_here"])
-    end_time = time.time()
-    return end_time - start_time
+# def run_process():
+#     start_time = time.time()
+#     # 在这里运行你的进程
+#     subprocess.run(["your_command_here"])
+#     end_time = time.time()
+#     return end_time - start_time
 
 
-class ProcessBalance:
-    def __init__(self, actions):
-        # action取决于核心数量
-        self.num_core = num_cores
-        self.num_actions = actions
-        self.learning_rate = learning_rate
-        self.discount_factor = discount_factor
-        self.epsilon = epsilon
-        self.q_table = np.zeros((self.num_core, self.num_actions))
-        self.states = get_all_processes(True)
+class State:
+    def __init__(self, cpu_percent, io_percent, memory_percent, process_affinities):
+        self.cpu_percent = cpu_percent
+        self.process_affinities = process_affinities
+        self.io_percent = io_percent
+        self.memory_percent = memory_percent
 
-    def update_states(self):
-        self.states = get_all_processes(True)
 
-    def learn(self, state, action, reward, next_state, pids):
-        get_processes_info(pids)
-        now_q_value = self.q_table[state][action]
-        new_q_value = reward + self.discount_factor * max(self.q_table[next_state])
-        self.q_table[state][action] += self.learning_rate * (new_q_value - now_q_value)
-        pass
+class Action:
+    def __init__(self, core_num, core_efficiency):
+        self.core_num = core_num
+        self.core_efficiency = core_efficiency
 
-    def update_reward(self, compile_time, execute_time):
-        reward = 1 / (compile_time + execute_time)
-        return reward
 
-    def choose_action(self, state):
-        if np.random.uniform(0, 1) < self.epsilon:
-            # 探索：以 epsilon 的概率随机选择动作
-            action = np.random.randint(self.num_actions)
-        else:
-            # 利用：选择具有最高Q值的动作
-            q_values = self.q_table[state]
-            action = np.argmax(q_values)
-        return action
+def cal_reward(error_need_edit):
+    pas = 114514
+    return pas
 
-    # def start_process(self):
-    #     c_files = get_c_files("stress")
-    #     for file in c_files:
-    #         affinity = self.choose_action()
-    #         compile_and_execute_c_file(file, affinity)
 
-    def compile_and_execute_c_file(self, c_file):
-        process_name = []
-        compile_time = []
-        execute_time = []
-        all_process = psutil.process_iter()
-        # 编译 C 文件
-        process_name = os.path.abspath(c_file)
-        # process_name.append(str(c_file))
-        start_compile_time = time.time()
-        # compile_process = subprocess.run(["gcc", c_file_path, "-o", "executable"])
+class QNetwork(nn.Module):
+    def __init__(self, state_dim, action_dim):
+        super(QNetwork, self).__init__()
+        self.fc1 = nn.Linear(state_dim, 128)
+        self.fc2 = nn.Linear(128, 128)
+        self.fc3 = nn.Linear(128, action_dim)
 
-        # '''linux下编译与执行'''
-        # compile_process = subprocess.Popen(["gcc", c_file, "-o", "executable"])
-        # # compile_process = launch_c_program()
-        #
-        # compile_pid = compile_process.pid  # 获取编译进程的 PID
-        # action = self.choose_action(get_processes_info(compile_process))
-        # set_cpu_affinity(compile_pid, action)
-        #
-        # # 等待编译进程结束
-        # compile_process.wait()
-        # end_compile_time = time.time()
-        # compile_time.append(end_compile_time - start_compile_time)
-        #
-        # # 获取编译进程的 CPU 使用率和内存使用率
-        # process_info_compile = get_processes_info(compile_pid)
-        # # compile_cpu_usage = psutil.Process(compile_pid).cpu_percent()
-        # # compile_memory_usage = psutil.Process(compile_pid).memory_percent()
-        #
-        # # 执行生成的可执行文件
-        # start_execute_time = time.time()
-        # execute_process = subprocess.Popen(["./executable"])
-        # execute_pid = execute_process.pid
-        #
-        # action = self.choose_action(get_processes_info(compile_process))
-        # set_cpu_affinity(execute_pid, action)
-        # process_info_execute = get_processes_info(execute_pid)
-        #
-        # # 等待执行结束
-        # execute_process.wait()
-        # end_execute_time = time.time()
-        # execute_time = end_execute_time - start_execute_time
+    def forward(self, x):
+        x = torch.relu(self.fc1(x))
+        x = torch.relu(self.fc2(x))
+        x = self.fc3(x)
+        return x
 
-        '''windows下编译与执行'''
-        match = re.match(r'(.*)\.c', c_file)
-        execute_name = match.group(1) + ".exe"
-        compile_process = subprocess.Popen(["gcc", c_file, "-o", execute_name])
-        execute_process = subprocess.Popen([execute_name])
 
-        return process_name, compile_time, execute_time
+state_dim = 11
+action_dim = 8  # 8个核心
+q_network = QNetwork(state_dim, action_dim)
 
-    def train(self, epochs):
-        for epoch in range(epochs):
-            system_info = get_system_info(True)
-            c_files = get_c_files(stress_folder)
-            # threads = []
-            # # 多线程地启动
-            # start_time = time.time()
-            # for program in c_files:
-            #     thread = threading.Thread(target=self.compile_and_execute_c_file, args=(program))
-            #     thread.start()
-            #     threads.append(thread)
-            # end_time = time.time()
-            # total_time = end_time - start_time
-            for c_file in c_files:
-                self.compile_and_execute_c_file(c_file)
-            _ = 1
+criterion = nn.MSELoss()
+optimizer = optim.Adam(q_network.parameters(), lr=0.001)
+
+
+def choose_action(state):
+    # 根据当前状态 state 和 Q-network q_network 计算每个动作的 Q 值
+    q_values = q_network(state)
+
+    # 根据 ε-greedy 策略选择动作
+    if random.random() < epsilon:
+        # 探索：随机选择一个动作
+        action = random.randint(0, q_values.size(0) - 1)
+    else:
+        # 利用：选择具有最大 Q 值的动作
+        action = torch.argmax(q_values).item()
+
+    return action
+
+
+def q_learning(state, action, reward, next_state, gamma=0.99):
+    q_values = q_network(state)
+    next_q_values = q_network(next_state)
+    target = reward + gamma * torch.max(next_q_values)
+    loss = criterion(q_values[action.core_index], target)
+    optimizer.zero_grad()
+    loss.backward()
+    optimizer.step()
+
+
+def compile_and_execute_c_file(c_file):
+    process_name = []
+    compile_time = []
+    execute_time = []
+    all_process = psutil.process_iter()
+    os_type = platform.system()
+
+    start_compile_time = time.time()
+
+    '''windows下编译'''
+    if os_type == "Windows":
+        os.environ['PATH'] += os.pathsep + gcc_path
+        filename = os.path.splitext(os.path.basename(c_file))[0]
+        command = f"gcc \"{c_file}\" -o \"{c_file[:-2]}.exe\""
+        compile_process = subprocess.Popen(command, shell=True)
+        compile_pid = compile_process.pid
+        # state = get_processes_info(compile_pid)
+        # action = self.choose_action(state)
+        # process_name = os.path.abspath(c_file)
+
+        '''linux下编译'''
+    elif os_type == "Linux":
+        compile_process = subprocess.run(["gcc", c_file, "-o", "executable"])
+        compile_pid = compile_process.pid
+        action = choose_action(get_processes_info(compile_process))
+        set_cpu_affinity(compile_pid, action)
+
+    compile_process.wait()
+    end_compile_time = time.time()
+
+    '''windows下执行'''
+    if os_type == "Windows":
+        command = f"{c_file[:-2]}.exe"
+        execute_process = subprocess.Popen(command)
+        execute_pid = execute_process.pid
+        execute_process_info = get_processes_info(execute_pid)
+        action = choose_action(execute_process_info)
+        reward = cal_reward()
+        '''Q更新'''
+        q_learning(execute_process_info, action, reward, compile_process)
+        set_cpu_affinity(execute_pid, action)
+
+        '''linux下执行'''
+    # elif os_type == "Linux":
+    #     # 执行
+    #     start_execute_time = time.time()
+    #     execute_process = subprocess.Popen(["./executable"])
+    #     execute_pid = execute_process.pid
+    #
+    #     action = choose_action(get_processes_info(compile_process))
+    #     set_cpu_affinity(execute_pid, action)
+    #     process_info_execute = get_processes_info(execute_pid)
+    #
+    #     # 等待执行结束
+    #     execute_process.wait()
+    #     end_execute_time = time.time()
+    #     execute_time = end_execute_time - start_execute_time
+
+    compile_time = end_compile_time - start_compile_time
+
+    # return process_name, compile_time, execute_time
+
+
+def train(epochs):
+    system_core_nums = 8
+    system_core_efficiency = [1, 1, 1, 1, 0.8, 0.8, 0.8, 0.8]
+    action = Action(system_core_nums, system_core_efficiency)
+
+    # 初始化 Q 网络
+    state_dim = ...  # 输入维度，根据状态的特征数确定
+    action_dim = ...  # 输出维度，根据动作的数量确定
+    q_network = QNetwork(state_dim, action_dim)
+
+    # 定义损失函数和优化器
+    criterion = nn.MSELoss()
+    optimizer = optim.Adam(q_network.parameters(), lr=0.001)
+
+    for epoch in range(epochs):
+        system_info = get_system_info(True)
+        c_files = get_c_files(stress_folder)
+        threads = []
+        # 多线程地启动
+        start_time = time.time()
+        for program in c_files:
+            compile_and_execute_c_file(program)
+            # thread = threading.Thread(target=self.compile_and_execute_c_file, args=(program))
+            # thread.start()
+            # threads.append(thread)
 
 
 def predict():
@@ -136,10 +189,10 @@ def predict():
 
 # start process->get pid->choose action(affinity) by state->set affinity->return state->update q value
 def main():
-    epoc = 100
-    actions = 4
-    train_process = ProcessBalance(actions)
-    train_process.train(epoc)
+    epoc = 3
+    actions = 32
+
+    train(epoc)
 
 
 if __name__ == "__main__":

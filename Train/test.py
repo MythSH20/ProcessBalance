@@ -8,18 +8,17 @@ def run(c_file):
     filename = os.path.splitext(os.path.basename(c_file))[0]
     # 构建编译命令
     command = f"gcc \"{c_file}\" -o \"{c_file[:-2]}.exe\""
-    subprocess.call(command, shell=True)
+    subprocess.Popen(command, shell=True)
     command = f"{c_file[:-2]}.exe"
-    subprocess.call(command, shell=True)
+    subprocess.Popen(command, shell=True)
 
 
 if __name__ == '__main__':
     # c_file = "stress/fpu.c"
-    file = "F:\Work Place\Python\ProcessBA_Linux\stress\\fpu.c"
+    file = "F:\WorkPlace\ProcessBA\stress\\fibonacci.c"
     run(file)
 
 # import os
-# import re
 # import subprocess
 # import time
 #

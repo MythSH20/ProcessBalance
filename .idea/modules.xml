@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/ProcessBA_Linux.iml" filepath="$PROJECT_DIR$/.idea/ProcessBA_Linux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ProcessBA.iml" filepath="$PROJECT_DIR$/.idea/ProcessBA.iml" />
     </modules>
   </component>
 </project>

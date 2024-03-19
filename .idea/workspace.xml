@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f01af39d-6452-4ed7-9b64-aca8c16549b7" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ProcessBA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProcessBA_Linux.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train/info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train/info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train/stress.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train/stress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Train/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Train/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_15-16-10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_20-50-20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_22-35-17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_22-39-08.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_22-39-40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-13_22-39-56.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-33-24.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-37-54.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-40-26.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-40-37.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-40-46.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-41-28.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-42-07.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-54-41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-56-20.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/data_2024-03-14_10-58-06.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stress/active1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stress/fibonacci.c" beforeDir="false" afterPath="$PROJECT_DIR$/stress/fibonacci.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stress/fibonacci.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stress/fpu.exe" beforeDir="false" afterPath="$PROJECT_DIR$/stress/fpu.exe" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2doZpKbQF1smRjHylPVg7LRialS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.delete.executor": "Run",
+    "Python.test.executor": "Debug",
+    "Python.train.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Work Place/Python/ProcessBA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Work Place\Python\ProcessBA\other" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="f01af39d-6452-4ed7-9b64-aca8c16549b7" name="更改" comment="" />
+      <created>1710676572365</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710676572365</updated>
+      <workItem from="1710676573392" duration="475000" />
+      <workItem from="1710726767284" duration="8619000" />
+      <workItem from="1710813031195" duration="20792000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Train/test.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Train/train.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Train/info.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Train/info.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ProcessBA$delete.coverage" NAME="delete 覆盖结果" MODIFIED="1710849893374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/other" />
+    <SUITE FILE_PATH="coverage/ProcessBA$train.coverage" NAME="train 覆盖结果" MODIFIED="1710731897590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Train" />
+    <SUITE FILE_PATH="coverage/ProcessBA$test.coverage" NAME="test 覆盖结果" MODIFIED="1710728229985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Train" />
+  </component>
+</project>
