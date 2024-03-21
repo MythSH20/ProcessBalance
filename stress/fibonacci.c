@@ -17,7 +17,7 @@ double fibonacci(int n)
 int main()
 {
     int n = 20; // 计算斐波那契数列的第 n 项
-    int times = 4;
+    int times = 2;
     double result = 0.;
     // printf("Calculating Fibonacci sequence for term %d...\n", n);
     clock_t start_time = clock();

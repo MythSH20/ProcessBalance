@@ -3,70 +3,135 @@ import os.path
 import psutil
 import json
 import datetime
+
+import torch
+
 from config import data_folder, save_folder
 import datetime
 
 
-# class SystemInfo:
-#     def __init__(self):
-#         pass
-#
-#     def get_cpu_percent(self):
-#         return psutil.cpu_percent()
-#
-#     def get_memory_percent(self):
-#         return psutil.virtual_memory().percent
-#
-#     def get_all_info(self):
-#         return 1
+def process_tensor(tensor):
+    if tensor.dim() == 0:
+        tensor = tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+    return tensor
 
 
 def get_system_info(is_save):
-    # systeminfo = SystemInfo()
     cpu_frequency = psutil.cpu_freq()
     cpu_percent = psutil.cpu_percent(percpu=True)
     cpu_times = psutil.cpu_times()
-
     cpu_time_percent = psutil.cpu_times_percent()
     cpu_stats = psutil.cpu_stats()
+    cpu_count = psutil.cpu_count(logical=True)
 
-    memory_info = psutil.virtual_memory().percent
+    memory_info = psutil.virtual_memory()
     swap_memory = psutil.swap_memory()
 
-    # print("Total Memory:", memory_info.total)
-    # print("Available Memory:", memory_info.available)
-    # print("Used Memory:", memory_info.used)
-    # print("Free Memory:", memory_info.free)
-    # print("Memory Percent:", memory_info.percent)
     disk_percent = psutil.disk_usage('/')
-    # print("Read Count:", disk_info.read_count)
-    # print("Write Count:", disk_info.write_count)
-    # print("Read Bytes:", disk_info.read_bytes)
-    # print("Write Bytes:", disk_info.write_bytes)
     io_counter = psutil.disk_io_counters()
 
+    # cpu_frequency = torch.tensor(psutil.cpu_freq(), dtype=torch.float32)
+    # cpu_percent = torch.tensor(psutil.cpu_percent(percpu=True))
+    # cpu_times = torch.tensor(psutil.cpu_times())
+    # cpu_time_percent = torch.tensor(psutil.cpu_times_percent())
+    # cpu_stats = torch.tensor(psutil.cpu_stats())
+    # cpu_count = torch.tensor(psutil.cpu_count(logical=True))
+    #
+    # memory_info = torch.tensor(psutil.virtual_memory())
+    # swap_memory = torch.tensor(psutil.swap_memory())
+    #
+    # disk_percent = torch.tensor(psutil.disk_usage('/'))
+    # io_counter = torch.tensor(psutil.disk_io_counters())
+
     sysinfo = {
-        # cpu
         "cpu_frequency": cpu_frequency,
         "cpu_percent": cpu_percent,
-        "cpu_time_percent": cpu_time_percent,
         "cpu_times": cpu_times,
+        "cpu_time_percent": cpu_time_percent,
         "cpu_stats": cpu_stats,
-
-        # '''memory'''
+        "cpu_count": cpu_count,
         "memory_info": memory_info,
-        "swap_memory ": swap_memory,
-
-        # disk
+        "swap_memory": swap_memory,
         "disk_percent": disk_percent,
-
-        # IO
         "io_counter": io_counter
     }
-    system_info = json.dumps(sysinfo)
-    if is_save:
-        save_to_txt(save_folder, system_info)
+    # for key, value in sysinfo.items():
+    #     if isinstance(value, (int, float)):
+    #         sysinfo[key] = torch.tensor(value, dtype=torch.float32)  # 转换标量为张量
+    #     elif isinstance(value, dict):
+    #         sysinfo[key] = torch.tensor(list(value.values()), dtype=torch.float32)  # 转换字典值为张量
+    #     elif isinstance(value, list):
+    #         sysinfo[key] = torch.tensor(value, dtype=torch.float32)  # 转换列表为张量
+
+    cpu_frequency = torch.tensor(sysinfo["cpu_frequency"])
+    cpu_percent = torch.tensor(sysinfo["cpu_percent"])
+    cpu_times = torch.tensor(sysinfo["cpu_times"])
+    cpu_time_percent = torch.tensor(sysinfo["cpu_time_percent"])
+    cpu_stats = torch.tensor(sysinfo["cpu_stats"])
+    cpu_count = torch.tensor(sysinfo["cpu_count"])
+    memory_info = torch.tensor(sysinfo["memory_info"])
+    swap_memory = torch.tensor(sysinfo["swap_memory"])
+    disk_percent = torch.tensor(sysinfo["disk_percent"])
+    io_counter = torch.tensor(sysinfo["io_counter"])
+
+    sysinfo = torch.cat([
+        cpu_frequency,
+        cpu_percent,
+        cpu_times,
+        cpu_time_percent,
+        cpu_stats,
+        cpu_count,
+        memory_info,
+        swap_memory,
+        disk_percent,
+        io_counter])
+
     return sysinfo
+    # # systeminfo = SystemInfo()
+    # cpu_frequency = psutil.cpu_freq()
+    # cpu_percent = psutil.cpu_percent(percpu=True)
+    # cpu_times = psutil.cpu_times()
+    #
+    # cpu_time_percent = psutil.cpu_times_percent()
+    # cpu_stats = psutil.cpu_stats()
+    #
+    # memory_info = psutil.virtual_memory().percent
+    # swap_memory = psutil.swap_memory()
+    #
+    # # print("Total Memory:", memory_info.total)
+    # # print("Available Memory:", memory_info.available)
+    # # print("Used Memory:", memory_info.used)
+    # # print("Free Memory:", memory_info.free)
+    # # print("Memory Percent:", memory_info.percent)
+    # disk_percent = psutil.disk_usage('/')
+    # # print("Read Count:", disk_info.read_count)
+    # # print("Write Count:", disk_info.write_count)
+    # # print("Read Bytes:", disk_info.read_bytes)
+    # # print("Write Bytes:", disk_info.write_bytes)
+    # io_counter = psutil.disk_io_counters()
+    #
+    # sysinfo = {
+    #     # cpu
+    #     "cpu_frequency": cpu_frequency,
+    #     "cpu_percent": cpu_percent,
+    #     "cpu_time_percent": cpu_time_percent,
+    #     "cpu_times": cpu_times,
+    #     "cpu_stats": cpu_stats,
+    #
+    #     # '''memory'''
+    #     "memory_info": memory_info,
+    #     "swap_memory ": swap_memory,
+    #
+    #     # disk
+    #     "disk_percent": disk_percent,
+    #
+    #     # IO
+    #     "io_counter": io_counter
+    # }
+    # system_info = json.dumps(sysinfo)
+    # if is_save:
+    #     save_to_txt(save_folder, system_info)
+    # return sysinfo
 
 
 # def get_processes_info(pids):
@@ -114,48 +179,90 @@ def get_pid(process_name):
 #             pass
 #     return processes_info
 
-def get_processes_info(pid):
+def get_state(pid):
     state = {}
+    info = {}
     try:
         # 根据 PID 获取进程对象
         psutil.pid_exists(pid)
         process = psutil.Process(pid)
-        info = {
-            "pid": process.pid,
-            "name": process.name(),
-            "status": process.status(),
-            "cpu_percent": process.cpu_percent(interval=0.01),
-            "cpu_time": process.cpu_times(),
-            "cpu_affinity": process.cpu_affinity(),
-            "threads": process.num_threads(),
-            "io": process.io_counters(),
-            "memory_percent": process.memory_percent(),
-            "memory_info": process.memory_info(),
-            "num_fileDescriptors": process.num_fds()
-        }
-        state = {
-            info["pid"],
-            info["name"],
-            info["status"],
-            info["cpu_percent"],
-            info["cpu_time"],
-            info["cpu_affinity"],
-            info["threads"],
-            info["io"],
-            info["memory_percent"],
-            info["memory_info"],
-            info["num_fileDescriptors"]
-        }
-        # state = pid, process.name(), process.status(), process.cpu_percent(
-        #     interval=1), process.io_counters(), process.memory_percent()
-        # info = {
-        #     "pid": pid,
-        #     "name": process.name(),
-        #     "status": process.status(),
-        #     "cpu_percent": process.cpu_percent(interval=1),
+
+        # 将字典中的信息转换为张量
+        cpu_percent_tensor = torch.tensor(process.cpu_percent(interval=0.01))
+        cpu_time_tensor = torch.tensor(process.cpu_times())
+        cpu_affinity_tensor = torch.tensor(process.cpu_affinity())
+        threads_tensor = torch.tensor(process.num_threads())
+        io_tensor = torch.tensor(process.io_counters())
+        memory_percent_tensor = torch.tensor(process.memory_percent())
+        memory_info_tensor = torch.tensor(process.memory_info())
+        num_file_descriptors_tensor = torch.tensor(len(process.open_files()))
+
+        # state_info = {
+        #     "cpu_percent": process.cpu_percent(interval=0.01),
+        #     "cpu_time": process.cpu_times(),
+        #     "cpu_affinity": process.cpu_affinity(),
+        #     "threads": process.num_threads(),
         #     "io": process.io_counters(),
         #     "memory_percent": process.memory_percent(),
+        #     "memory_info": process.memory_info(),
+        #     "num_fileDescriptors": len(process.open_files())
         # }
+        #
+        # # 将字典中的信息转换为张量
+        # cpu_percent_tensor = torch.tensor(state_info["cpu_percent"])
+        # cpu_time_tensor = torch.tensor(state_info["cpu_time"])
+        # cpu_affinity_tensor = torch.tensor(state_info["cpu_affinity"])
+        # threads_tensor = torch.tensor(state_info["threads"])
+        # io_tensor = torch.tensor(state_info["io"])
+        # memory_percent_tensor = torch.tensor(state_info["memory_percent"])
+        # memory_info_tensor = torch.tensor(state_info["memory_info"])
+        # num_file_descriptors_tensor = torch.tensor(state_info["num_fileDescriptors"])
+
+        # 检查并处理 cpu_percent_tensor
+        if cpu_percent_tensor.dim() == 0:
+            cpu_percent_tensor = cpu_percent_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 cpu_time_tensor
+        if cpu_time_tensor.dim() == 0:
+            cpu_time_tensor = cpu_time_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 cpu_affinity_tensor
+        if cpu_affinity_tensor.dim() == 0:
+            cpu_affinity_tensor = cpu_affinity_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 threads_tensor
+        if threads_tensor.dim() == 0:
+            threads_tensor = threads_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 io_tensor
+        if io_tensor.dim() == 0:
+            io_tensor = io_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 memory_info_tensor
+        if memory_info_tensor.dim() == 0:
+            memory_info_tensor = memory_info_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 num_file_descriptors_tensor
+        if num_file_descriptors_tensor.dim() == 0:
+            num_file_descriptors_tensor = num_file_descriptors_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        system_info = get_system_info(True)
+        if len(state_info["cpu_affinity"]) < psutil.cpu_count(logical=True):
+            state_info["cpu_affinity"] += [-1] * (psutil.cpu_count(logical=True) - len(state_info["cpu_affinity"]))
+
+        # 将所有张量连接成一个张量
+        state = torch.cat([
+            cpu_percent_tensor,
+            cpu_time_tensor,
+            cpu_affinity_tensor,
+            threads_tensor,
+            io_tensor,
+            memory_percent_tensor,
+            memory_info_tensor,
+            num_file_descriptors_tensor,
+            system_info
+        ])
+
     except psutil.NoSuchProcess:
         # 如果进程不存在，则忽略该进程
         print("ERROR:No such process:" + str(pid))
@@ -167,32 +274,90 @@ def get_all_processes(is_save):
     states = {}
     all_processes = list(psutil.process_iter())
     for process in all_processes:
-        info = {
-            "pid": process.pid,
-            "name": process.name(),
-            "status": process.status(),
-            "cpu_percent": process.cpu_percent(interval=0.0001),
+        state_info = {
+            "cpu_percent": process.cpu_percent(interval=0.01),
             "cpu_time": process.cpu_times(),
             "cpu_affinity": process.cpu_affinity(),
             "threads": process.num_threads(),
             "io": process.io_counters(),
             "memory_percent": process.memory_percent(),
             "memory_info": process.memory_info(),
-            "num_fileDescriptors": process.num_fds()
+            "num_fileDescriptors": len(process.open_files())
         }
-        state = {
-            info["pid"],
-            info["name"],
-            info["status"],
-            info["cpu_percent"],
-            info["cpu_time"],
-            info["cpu_affinity"],
-            info["threads"],
-            info["io"],
-            info["memory_percent"],
-            info["memory_info"],
-            info["num_fileDescriptors"]
-        }
+
+        # 将字典中的信息转换为张量
+        cpu_percent_tensor = torch.tensor(state_info["cpu_percent"])
+        cpu_time_tensor = torch.tensor(state_info["cpu_time"])
+        cpu_affinity_tensor = torch.tensor(state_info["cpu_affinity"])
+        threads_tensor = torch.tensor(state_info["threads"])
+        io_tensor = torch.tensor(state_info["io"])
+        memory_percent_tensor = torch.tensor(state_info["memory_percent"])
+        memory_info_tensor = torch.tensor(state_info["memory_info"])
+        num_file_descriptors_tensor = torch.tensor(state_info["num_fileDescriptors"])
+
+        # 检查并处理 cpu_percent_tensor
+        if cpu_percent_tensor.dim() == 0:
+            cpu_percent_tensor = cpu_percent_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 cpu_time_tensor
+        if cpu_time_tensor.dim() == 0:
+            cpu_time_tensor = cpu_time_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 cpu_affinity_tensor
+        if cpu_affinity_tensor.dim() == 0:
+            cpu_affinity_tensor = cpu_affinity_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 threads_tensor
+        if threads_tensor.dim() == 0:
+            threads_tensor = threads_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 io_tensor
+        if io_tensor.dim() == 0:
+            io_tensor = io_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 memory_info_tensor
+        if memory_info_tensor.dim() == 0:
+            memory_info_tensor = memory_info_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 检查并处理 num_file_descriptors_tensor
+        if num_file_descriptors_tensor.dim() == 0:
+            num_file_descriptors_tensor = num_file_descriptors_tensor.unsqueeze(0)  # 将零维张量转换为一维张量（标量）
+
+        # 将所有张量连接成一个张量
+        state = torch.cat([
+            cpu_percent_tensor,
+            cpu_time_tensor,
+            cpu_affinity_tensor,
+            threads_tensor,
+            io_tensor,
+            # memory_percent_tensor,
+            memory_info_tensor,
+            num_file_descriptors_tensor
+        ])
+
+        # info = {
+        #     "pid": process.pid,
+        #     "name": process.name(),
+        #     "status": process.status(),
+        #     "cpu_percent": torch.tensor(process.cpu_percent(interval=0.01)),
+        #     "cpu_time": torch.tensor(process.cpu_times()),
+        #     "cpu_affinity": torch.tensor(process.cpu_affinity()),
+        #     "threads": torch.tensor(process.num_threads()),
+        #     "io": torch.tensor(process.io_counters()),
+        #     "memory_percent": torch.tensor(process.memory_percent()),
+        #     "memory_info": torch.tensor(process.memory_info()),
+        #     "num_fileDescriptors": torch.tensor(len(process.open_files()))
+        # }
+        # state = torch.cat({
+        #     info["cpu_percent"],
+        #     info["cpu_time"],
+        #     info["cpu_affinity"],
+        #     info["threads"],
+        #     info["io"],
+        #     info["memory_percent"],
+        #     info["memory_info"],
+        #     info["num_fileDescriptors"]
+        # })
         states[process.pid] = state
     if is_save:
         save_process(all_processes)
@@ -226,6 +391,6 @@ def save_to_txt(folder, data):
 
 if __name__ == '__main__':
     pid = 3376
-    get_processes_info(pid)
+    get_state(pid)
     i = 0
     i += 1

@@ -14,7 +14,7 @@ import torch.optim as optim
 
 from config import learning_rate, discount_factor, epsilon, num_cores, stress_folder, gcc_path
 # from stress import compile_and_execute_c_file
-from info import get_processes_info, get_system_info, get_all_processes
+from info import get_state, get_system_info, get_all_processes
 from stress import get_c_files
 from affinity import set_cpu_affinity
 
@@ -41,9 +41,9 @@ class Action:
         self.core_efficiency = core_efficiency
 
 
-def cal_reward(error_need_edit):
-    pas = 114514
-    return pas
+def cal_reward(execute_time):
+    reward = 1 / execute_time
+    return reward
 
 
 class QNetwork(nn.Module):
@@ -60,7 +60,7 @@ class QNetwork(nn.Module):
         return x
 
 
-state_dim = 11
+state_dim = 26
 action_dim = 8  # 8个核心
 q_network = QNetwork(state_dim, action_dim)
 
@@ -87,7 +87,7 @@ def q_learning(state, action, reward, next_state, gamma=0.99):
     q_values = q_network(state)
     next_q_values = q_network(next_state)
     target = reward + gamma * torch.max(next_q_values)
-    loss = criterion(q_values[action.core_index], target)
+    loss = criterion(q_values[action], target)
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
@@ -117,7 +117,7 @@ def compile_and_execute_c_file(c_file):
     elif os_type == "Linux":
         compile_process = subprocess.run(["gcc", c_file, "-o", "executable"])
         compile_pid = compile_process.pid
-        action = choose_action(get_processes_info(compile_process))
+        action = choose_action(get_state(compile_process))
         set_cpu_affinity(compile_pid, action)
 
     compile_process.wait()
@@ -126,14 +126,36 @@ def compile_and_execute_c_file(c_file):
     '''windows下执行'''
     if os_type == "Windows":
         command = f"{c_file[:-2]}.exe"
+        start_time = time.time()
         execute_process = subprocess.Popen(command)
         execute_pid = execute_process.pid
-        execute_process_info = get_processes_info(execute_pid)
-        action = choose_action(execute_process_info)
-        reward = cal_reward()
-        '''Q更新'''
-        q_learning(execute_process_info, action, reward, compile_process)
+        state1 = get_state(execute_pid)
+        action = choose_action(state1)
         set_cpu_affinity(execute_pid, action)
+
+        '''调整亲和性并等待结束 '''
+        action = choose_action(state1)
+        state1 = get_state(execute_pid)
+        execute_process.wait()
+        exit_code = execute_process.returncode
+        end_time = time.time()
+        time1 = end_time - start_time
+
+        start_time = time.time()
+        execute_process = subprocess.Popen(command)
+        execute_pid = execute_process.pid
+        set_cpu_affinity(execute_pid, [action])
+        execute_pid = execute_process.pid
+        state2 = get_state(execute_pid)
+        execute_process.wait()
+        end_time = time.time()
+        time2 = end_time - start_time
+
+        '''Q更新'''
+        time_ = time2 - time1
+        reward = cal_reward(time_)
+        print(state1, "\n", state2)
+        q_learning(state1, action, reward, state2)
 
         '''linux下执行'''
     # elif os_type == "Linux":
@@ -157,13 +179,18 @@ def compile_and_execute_c_file(c_file):
 
 
 def train(epochs):
-    system_core_nums = 8
-    system_core_efficiency = [1, 1, 1, 1, 0.8, 0.8, 0.8, 0.8]
+    system_core_nums = 32
+    system_core_efficiency = [1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 0.8, 0.8, 0.8, 0.8, 0.8,
+                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
+                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
+                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
+                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
+                              0.8, 0.8, 0.8, ]
     action = Action(system_core_nums, system_core_efficiency)
 
     # 初始化 Q 网络
-    state_dim = ...  # 输入维度，根据状态的特征数确定
-    action_dim = ...  # 输出维度，根据动作的数量确定
+    state_dim = 11  # 输入维度，根据状态的特征数确定
+    action_dim = 8  # 输出维度，根据动作的数量确定
     q_network = QNetwork(state_dim, action_dim)
 
     # 定义损失函数和优化器

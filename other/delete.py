@@ -17,5 +17,5 @@ def delete_files(folder_path):
 
 
 # 要处理的文件夹路径
-folder_path = ("F:\PR\\133")
+folder_path = ("F:\PR\庄生")
 delete_files(folder_path)

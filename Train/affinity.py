@@ -3,12 +3,12 @@ import subprocess
 import psutil
 
 
-def set_cpu_affinity(pid, cpu_cores):
+def set_cpu_affinity(pid, cpu_core):
     """
     设置进程的亲和性
     """
     process = psutil.Process(pid)
-    process.cpu_affinity(cpu_cores)
+    process.cpu_affinity(cpu_core)
 
 
 def launch_c_program(c_program_path, cpu_cores):
