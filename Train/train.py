@@ -19,14 +19,6 @@ from stress import get_c_files
 from affinity import set_cpu_affinity
 
 
-# def run_process():
-#     start_time = time.time()
-#     # 在这里运行你的进程
-#     subprocess.run(["your_command_here"])
-#     end_time = time.time()
-#     return end_time - start_time
-
-
 class State:
     def __init__(self, cpu_percent, io_percent, memory_percent, process_affinities):
         self.cpu_percent = cpu_percent
@@ -39,6 +31,9 @@ class Action:
     def __init__(self, core_num, core_efficiency):
         self.core_num = core_num
         self.core_efficiency = core_efficiency
+
+    def __str__(self):
+        return f"Action: core_num={self.core_num}, core_efficiency={self.core_efficiency}"
 
 
 def cal_reward(execute_time):
@@ -60,8 +55,9 @@ class QNetwork(nn.Module):
         return x
 
 
-state_dim = 26
-action_dim = 8  # 8个核心
+max_cores = 31
+state_dim = 129
+action_dim = 31  # 8个核心
 q_network = QNetwork(state_dim, action_dim)
 
 criterion = nn.MSELoss()
@@ -71,26 +67,35 @@ optimizer = optim.Adam(q_network.parameters(), lr=0.001)
 def choose_action(state):
     # 根据当前状态 state 和 Q-network q_network 计算每个动作的 Q 值
     q_values = q_network(state)
-
+    actions = []
     # 根据 ε-greedy 策略选择动作
     if random.random() < epsilon:
         # 探索：随机选择一个动作
-        action = random.randint(0, q_values.size(0) - 1)
+        num_actions = q_values.size(0)  # 获取动作的数量
+
+        for _ in range(num_actions):
+            core_nums = [random.randint(1, max_cores) for _ in range(num_cores)]  # 随机选择核心数量
+            core_efficiencies = [random.uniform(0.0, 1.0) for _ in range(num_cores)]  # 随机选择每个核心的效率
+            actions.append(Action(core_nums, core_efficiencies))
     else:
         # 利用：选择具有最大 Q 值的动作
-        action = torch.argmax(q_values).item()
-
-    return action
+        max_q_values, max_indices = torch.max(q_values, dim=0)
+        actions = [Action([max_indices.item()], [1.0])]  # 使用具有最大 Q 值的动作
+    return actions
 
 
 def q_learning(state, action, reward, next_state, gamma=0.99):
     q_values = q_network(state)
     next_q_values = q_network(next_state)
     target = reward + gamma * torch.max(next_q_values)
+    print(action)
     loss = criterion(q_values[action], target)
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
+
+
+s
 
 
 def compile_and_execute_c_file(c_file):
@@ -137,14 +142,13 @@ def compile_and_execute_c_file(c_file):
         action = choose_action(state1)
         state1 = get_state(execute_pid)
         execute_process.wait()
-        exit_code = execute_process.returncode
         end_time = time.time()
         time1 = end_time - start_time
 
         start_time = time.time()
         execute_process = subprocess.Popen(command)
         execute_pid = execute_process.pid
-        set_cpu_affinity(execute_pid, [action])
+        set_cpu_affinity(execute_pid, action)
         execute_pid = execute_process.pid
         state2 = get_state(execute_pid)
         execute_process.wait()
@@ -152,7 +156,7 @@ def compile_and_execute_c_file(c_file):
         time2 = end_time - start_time
 
         '''Q更新'''
-        time_ = time2 - time1
+        time_ = time1 - time2
         reward = cal_reward(time_)
         print(state1, "\n", state2)
         q_learning(state1, action, reward, state2)

@@ -3,12 +3,19 @@ import subprocess
 import psutil
 
 
-def set_cpu_affinity(pid, cpu_core):
+def set_cpu_affinity(pid, actions):
     """
     设置进程的亲和性
     """
-    process = psutil.Process(pid)
-    process.cpu_affinity(cpu_core)
+    # 提取 CPU 核心列表
+    core_list = [action.core_num for action in actions]
+
+    # 将核心列表转换为整数列表
+    cpu_affinity = [core for core_list in core_list for core in core_list]
+
+    # 设置 CPU 亲和性
+    process = psutil.Process(os.getpid())
+    process.cpu_affinity(cpu_affinity)
 
 
 def launch_c_program(c_program_path, cpu_cores):
