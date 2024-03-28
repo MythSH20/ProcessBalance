@@ -5,6 +5,7 @@ import threading
 import time
 import platform
 import random
+import pandas as pd
 
 import numpy as np
 import psutil
@@ -19,23 +20,6 @@ from stress import get_c_files
 from affinity import set_cpu_affinity
 
 
-class State:
-    def __init__(self, cpu_percent, io_percent, memory_percent, process_affinities):
-        self.cpu_percent = cpu_percent
-        self.process_affinities = process_affinities
-        self.io_percent = io_percent
-        self.memory_percent = memory_percent
-
-
-class Action:
-    def __init__(self, core_num, core_efficiency):
-        self.core_num = core_num
-        self.core_efficiency = core_efficiency
-
-    def __str__(self):
-        return f"Action: core_num={self.core_num}, core_efficiency={self.core_efficiency}"
-
-
 def cal_reward(execute_time):
     reward = 1 / execute_time
     return reward
@@ -44,44 +28,46 @@ def cal_reward(execute_time):
 class QNetwork(nn.Module):
     def __init__(self, state_dim, action_dim):
         super(QNetwork, self).__init__()
-        self.fc1 = nn.Linear(state_dim, 128)
-        self.fc2 = nn.Linear(128, 128)
-        self.fc3 = nn.Linear(128, action_dim)
+        hid1_size = 128
+        hid2_size = 128
+        self.fc1 = nn.Linear(state_dim, hid1_size)
+        # 定义第二层全连接层
+        self.fc2 = nn.Linear(hid1_size, hid2_size)
+        # 定义第三层全连接层，输入单元数目为隐藏层神经元数目hid2_size，输出单元数目为action的维度
+        self.fc3 = nn.Linear(hid2_size, action_dim)
 
     def forward(self, x):
         x = torch.relu(self.fc1(x))
-        x = torch.relu(self.fc2(x))
-        x = self.fc3(x)
-        return x
+        y = torch.relu(self.fc2(x))
+        q_value = self.fc3(y)
+        return q_value
 
 
-max_cores = 31
-state_dim = 129
-action_dim = 31  # 8个核心
+ACTIONS = [0, 1, 2]
+max_cores = 32
+state_dim = 123
+action_dim = 3  # 3簇核心
 q_network = QNetwork(state_dim, action_dim)
 
 criterion = nn.MSELoss()
 optimizer = optim.Adam(q_network.parameters(), lr=0.001)
 
 
+# 根据当前状态 state 和 Q-network q_network 计算每个动作的 Q 值
 def choose_action(state):
     # 根据当前状态 state 和 Q-network q_network 计算每个动作的 Q 值
     q_values = q_network(state)
-    actions = []
+
     # 根据 ε-greedy 策略选择动作
     if random.random() < epsilon:
         # 探索：随机选择一个动作
-        num_actions = q_values.size(0)  # 获取动作的数量
-
-        for _ in range(num_actions):
-            core_nums = [random.randint(1, max_cores) for _ in range(num_cores)]  # 随机选择核心数量
-            core_efficiencies = [random.uniform(0.0, 1.0) for _ in range(num_cores)]  # 随机选择每个核心的效率
-            actions.append(Action(core_nums, core_efficiencies))
+        selected_action = random.choice(ACTIONS)  # 从动作空间中随机选择一个动作
     else:
         # 利用：选择具有最大 Q 值的动作
-        max_q_values, max_indices = torch.max(q_values, dim=0)
-        actions = [Action([max_indices.item()], [1.0])]  # 使用具有最大 Q 值的动作
-    return actions
+        _, max_index = torch.max(q_values, dim=0)
+        selected_action = max_index.item()  # 获取具有最大 Q 值的动作的索引
+
+    return selected_action
 
 
 def q_learning(state, action, reward, next_state, gamma=0.99):
@@ -93,9 +79,6 @@ def q_learning(state, action, reward, next_state, gamma=0.99):
     optimizer.zero_grad()
     loss.backward()
     optimizer.step()
-
-
-s
 
 
 def compile_and_execute_c_file(c_file):
@@ -114,9 +97,6 @@ def compile_and_execute_c_file(c_file):
         command = f"gcc \"{c_file}\" -o \"{c_file[:-2]}.exe\""
         compile_process = subprocess.Popen(command, shell=True)
         compile_pid = compile_process.pid
-        # state = get_processes_info(compile_pid)
-        # action = self.choose_action(state)
-        # process_name = os.path.abspath(c_file)
 
         '''linux下编译'''
     elif os_type == "Linux":
@@ -184,13 +164,6 @@ def compile_and_execute_c_file(c_file):
 
 def train(epochs):
     system_core_nums = 32
-    system_core_efficiency = [1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 1, 0.5, 0.8, 0.8, 0.8, 0.8, 0.8,
-                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
-                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
-                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
-                              0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8, 0.8,
-                              0.8, 0.8, 0.8, ]
-    action = Action(system_core_nums, system_core_efficiency)
 
     # 初始化 Q 网络
     state_dim = 11  # 输入维度，根据状态的特征数确定

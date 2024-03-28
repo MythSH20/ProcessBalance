@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <unistd.h>
+
+#ifdef _WIN32
+#include <direct.h>  // Windows 系统下的 mkdir 函数头文件
+#define mkdir(directory, mode) _mkdir(directory)  // 重定义 mkdir 函数
+#else
+#include <unistd.h>  // Unix/Linux 系统下的 mkdir 函数头文件
 #include <sys/stat.h>
-#include <sys/types.h>
+#endif
 
 #define DIRECTORY "IOFile_Library"
 #define NUM_FILES 100

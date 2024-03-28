@@ -30,18 +30,7 @@ def get_system_info(is_save):
     disk_percent_tensor = process_tensor(torch.tensor(psutil.disk_usage('/')))
     io_counter_tensor = process_tensor(torch.tensor(psutil.disk_io_counters()))
 
-    sysinfo = {
-        "cpu_frequency": cpu_frequency_tensor,
-        "cpu_percent": cpu_percent_tensor,
-        "cpu_times": cpu_times_tensor,
-        "cpu_time_percent": cpu_time_percent_tensor,
-        "cpu_stats": cpu_stats_tensor,
-        "cpu_count": cpu_count_tensor,
-        "memory_info": memory_info_tensor,
-        "swap_memory": swap_memory_tensor,
-        "disk_percent": disk_percent_tensor,
-        "io_counter": io_counter_tensor
-    }
+    #
 
     sysinfo = torch.cat([
         cpu_frequency_tensor,
@@ -65,36 +54,61 @@ def get_state(process_pid):
         psutil.pid_exists(process_pid)
         process = psutil.Process(process_pid)
 
-        # 将字典中的信息转换为张量
-        cpu_percent_tensor = process_tensor(torch.tensor(process.cpu_percent(interval=0.01)))
-        cpu_time_tensor = process_tensor(torch.tensor(process.cpu_times()))
-        cpu_affinity_tensor = process_tensor(torch.tensor(process.cpu_affinity()))
-        threads_tensor = process_tensor(torch.tensor(process.num_threads()))
-        io_tensor = process_tensor(torch.tensor(process.io_counters()))
-        memory_percent_tensor = process_tensor(torch.tensor(process.memory_percent()))
-        memory_info_tensor = process_tensor(torch.tensor(process.memory_info()))
-        num_file_descriptors_tensor = process_tensor(torch.tensor(len(process.open_files())))
+        cpu_percent = process_tensor(torch.tensor(process.cpu_percent(interval=0.01)))
+        cpu_user_time = process_tensor(torch.tensor(process.cpu_times().user))
+        cpu_system_time = process_tensor(torch.tensor(process.cpu_times().system))
+        cpu_affinity = process_tensor(torch.tensor(process.cpu_affinity()))
+        num_threads = process_tensor(torch.tensor(process.num_threads()))
+        io_read_count = process_tensor(torch.tensor(process.io_counters().read_count))
+        io_write_count = process_tensor(torch.tensor(process.io_counters().write_count))
+        io_other_count = process_tensor(torch.tensor(process.io_counters().other_count))
+        io_read_bytes = process_tensor(torch.tensor(process.io_counters().read_bytes))
+        io_write_bytes = process_tensor(torch.tensor(process.io_counters().write_bytes))
+        io_other_bytes = process_tensor(torch.tensor(process.io_counters().other_bytes))
+        memory_percent = process_tensor(torch.tensor(process.memory_percent()))
+        memory_rss = process_tensor(torch.tensor(process.memory_info().rss))
+        memory_vms = process_tensor(torch.tensor(process.memory_info().vms))
+        memory_page_faults = process_tensor(torch.tensor(process.memory_info().num_page_faults))
+        memory_peak_wset = process_tensor(torch.tensor(process.memory_info().peak_wset))
+        memory_wset = process_tensor(torch.tensor(process.memory_info().wset))
+        memory_peak_paged_pool = process_tensor(torch.tensor(process.memory_info().peak_paged_pool))
+        memory_paged_pool = process_tensor(torch.tensor(process.memory_info().paged_pool))
+        memory_peak_nonpaged_pool = process_tensor(torch.tensor(process.memory_info().peak_nonpaged_pool))
+        memory_nonpaged_pool = process_tensor(torch.tensor(process.memory_info().nonpaged_pool))
 
         system_info = get_system_info(True)
         cpu_count_logical = psutil.cpu_count(logical=True)
-        if len(cpu_affinity_tensor) < cpu_count_logical:
+        if len(cpu_affinity) < cpu_count_logical:
             # 计算需要补充的个数
-            num_to_append = cpu_count_logical - len(cpu_affinity_tensor)
+            num_to_append = cpu_count_logical - len(cpu_affinity)
             # 创建要添加的值为-1的张量
             appended_tensor = torch.full((num_to_append,), -1, dtype=torch.int32)
             # 将新的张量与原始张量拼接起来
-            cpu_affinity_tensor = torch.cat((cpu_affinity_tensor, appended_tensor))
+            cpu_affinity = torch.cat((cpu_affinity, appended_tensor))
 
         # 将所有张量连接成一个张量
         state = torch.cat([
-            cpu_percent_tensor,
-            cpu_time_tensor,
-            cpu_affinity_tensor,
-            threads_tensor,
-            io_tensor,
-            memory_percent_tensor,
-            memory_info_tensor,
-            num_file_descriptors_tensor,
+            cpu_percent,
+            cpu_user_time,
+            cpu_system_time,
+            cpu_affinity,
+            num_threads,
+            io_read_count,
+            io_write_count,
+            io_other_count,
+            io_read_bytes,
+            io_write_bytes,
+            io_other_bytes,
+            memory_percent,
+            memory_rss,
+            memory_vms,
+            memory_page_faults,
+            memory_peak_wset,
+            memory_wset,
+            memory_peak_paged_pool,
+            memory_paged_pool,
+            memory_peak_nonpaged_pool,
+            memory_nonpaged_pool,
             system_info
         ])
 
@@ -109,38 +123,7 @@ def get_all_processes(is_save):
     states = {}
     all_processes = list(psutil.process_iter())
     for process in all_processes:
-        state_info = {
-            "cpu_percent": process.cpu_percent(interval=0.01),
-            "cpu_time": process.cpu_times(),
-            "cpu_affinity": process.cpu_affinity(),
-            "threads": process.num_threads(),
-            "io": process.io_counters(),
-            "memory_percent": process.memory_percent(),
-            "memory_info": process.memory_info(),
-            "num_fileDescriptors": len(process.open_files())
-        }
-
-        # 将字典中的信息转换为张量
-        cpu_percent_tensor = torch.tensor(state_info["cpu_percent"])
-        cpu_time_tensor = torch.tensor(state_info["cpu_time"])
-        cpu_affinity_tensor = torch.tensor(state_info["cpu_affinity"])
-        threads_tensor = torch.tensor(state_info["threads"])
-        io_tensor = torch.tensor(state_info["io"])
-        memory_percent_tensor = torch.tensor(state_info["memory_percent"])
-        memory_info_tensor = torch.tensor(state_info["memory_info"])
-        num_file_descriptors_tensor = torch.tensor(state_info["num_fileDescriptors"])
-
-        # 将所有张量连接成一个张量
-        state = torch.cat([
-            cpu_percent_tensor,
-            cpu_time_tensor,
-            cpu_affinity_tensor,
-            threads_tensor,
-            io_tensor,
-            memory_percent_tensor,
-            memory_info_tensor,
-            num_file_descriptors_tensor
-        ])
+        state = get_state(process.pid)
 
         states[process.pid] = state
     if is_save:

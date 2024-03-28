@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+#define NUM_FILES 10000 // 要创建的文件数量
+#define FILE_SIZE 1024 // 每个文件的大小（以字节为单位）
+
+void createFiles(const char *folderPath) {
+    char filePath[MAX_PATH];
+    for (int i = 0; i < NUM_FILES; i++) {
+        sprintf(filePath, "%s\\file%d.txt", folderPath, i);
+        FILE *file = fopen(filePath, "w");
+        if (file != NULL) {
+            // 写入数据以填充文件
+            for (int j = 0; j < FILE_SIZE; j++) {
+                fputc('A', file);
+            }
+            fclose(file);
+        }
+    }
+}
+
+void deleteFiles(const char *folderPath) {
+    char filePath[MAX_PATH];
+    for (int i = 0; i < NUM_FILES; i++) {
+        sprintf(filePath, "%s\\file%d.txt", folderPath, i);
+        remove(filePath);
+    }
+}
+
+int main() {
+    const char *folderPath = "C:\\Temp"; // 要创建文件的文件夹路径
+    if (!CreateDirectory(folderPath, NULL)) {
+        printf("Failed to create directory.\n");
+        return 1;
+    }
+
+    printf("Creating files...\n");
+    createFiles(folderPath);
+    printf("Files created.\n");
+
+    printf("Deleting files...\n");
+    deleteFiles(folderPath);
+    printf("Files deleted.\n");
+
+    // 删除文件夹
+    RemoveDirectory(folderPath);
+
+    return 0;
+}

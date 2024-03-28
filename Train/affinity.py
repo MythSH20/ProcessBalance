@@ -3,19 +3,21 @@ import subprocess
 import psutil
 
 
-def set_cpu_affinity(pid, actions):
+def set_cpu_affinity(pid, action):
     """
     设置进程的亲和性
     """
     # 提取 CPU 核心列表
-    core_list = [action.core_num for action in actions]
-
-    # 将核心列表转换为整数列表
-    cpu_affinity = [core for core_list in core_list for core in core_list]
+    process = psutil.Process(pid)
 
     # 设置 CPU 亲和性
-    process = psutil.Process(os.getpid())
-    process.cpu_affinity(cpu_affinity)
+    if action == 0:
+        cpu_cores = [0, 1, 2, 3]
+    elif action == 1:
+        cpu_cores = [15, 16, 17, 18]
+    elif action == 2:
+        cpu_cores = [19, 20, 21, 22]
+    process.cpu_affinity(cpu_cores)
 
 
 def launch_c_program(c_program_path, cpu_cores):
