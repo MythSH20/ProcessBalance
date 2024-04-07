@@ -23,12 +23,12 @@ int main()
     clock_t start_time = clock();
     for (int i = 0; i < times; i++)
     {
-        n = 45;
+        n = 42;
         result = fibonacci(n);
     }
     clock_t end_time = clock();
     double execution_time = (double)(end_time - start_time) / CLOCKS_PER_SEC;
-    printf("Function execution time: %.6f seconds\n", execution_time);
+    printf("斐波那契测试完成，运行时间: %.6f seconds\n", execution_time);
     printf("The %dth term of Fibonacci sequence is: %0.llf\n", n, result);
     return 0;
 }

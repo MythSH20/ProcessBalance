@@ -1,0 +1,904 @@
+C:\Users\MythS\.conda\envs\ProcessBA\python.exe "F:\Work Place\Python\ProcessBA\Train\main.py"
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.063000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.403000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.248000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.982000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.691000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.257000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 13.077000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.174000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.397000 seconds
+Matrix multiplication time: 9.589000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.432000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.805000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 5.306000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.098000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.900000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.887000 秒
+Matrix multiplication time: 13.630000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.297000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.405000 seconds
+Matrix multiplication time: 9.589000 seconds
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.416000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.157000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.916000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.716000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.924000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.590000 秒
+Matrix multiplication time: 12.907000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.034000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.577000 seconds
+Matrix multiplication time: 9.487000 seconds
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.366000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.962000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.792000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.726000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.408000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.553000 秒
+Matrix multiplication time: 12.717000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.352000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.986000 seconds
+Matrix multiplication time: 9.661000 seconds
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.619000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.396000 秒
+[14, 15, 16, 17]
+Matrix multiplication time: 7.057000 seconds
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.675000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.493000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.221000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.395000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.839000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.656000 seconds
+Matrix multiplication time: 10.928000 seconds
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.420000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.323000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.567000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.215000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.069000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.420000 秒
+Matrix multiplication time: 13.657000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.852000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.437000 seconds
+Matrix multiplication time: 9.426000 seconds
+[14, 15, 16, 17][14, 15, 16, 17]
+
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.847000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.461000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.560000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.002000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.819000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 13.044000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 14.657000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.188000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.958000 seconds
+Matrix multiplication time: 9.423000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.608000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：7.114000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.396000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.639000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.332000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.646000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 13.143000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.308000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.525000 seconds
+Matrix multiplication time: 9.781000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.572000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.720000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.242000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.562000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.546000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.948000 秒
+Matrix multiplication time: 13.598000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.293000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.528000 seconds
+Matrix multiplication time: 9.652000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.383000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.473000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.992000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.315000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.665000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.839000 秒
+Matrix multiplication time: 14.181000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.345000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.923000 seconds
+Matrix multiplication time: 10.002000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.420000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.462000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.224000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.914000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.616000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.507000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 14.251000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.058000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.417000 seconds
+Matrix multiplication time: 9.188000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.679000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.889000 秒
+[18, 19, 20, 21]
+斐波那契测试完成，运行时间: 3.474000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.577000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.868000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 12.425000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.789000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.871000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.264000 seconds
+Matrix multiplication time: 9.560000 seconds
+[18, 19, 20, 21][14, 15, 16, 17]
+
+[14, 15, 16, 17][14, 15, 16, 17]
+
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.515000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.176000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.570000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.315000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：4.961000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.424000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 11.721000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.026000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.236000 seconds
+Matrix multiplication time: 9.312000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.239000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.523000 秒
+[18, 19, 20, 21]
+斐波那契测试完成，运行时间: 3.860000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.036000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.771000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.768000 秒
+Matrix multiplication time: 13.261000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.841000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.987000 seconds
+Matrix multiplication time: 9.149000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 5.069000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.404000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 5.209000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.980000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.083000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.102000 秒
+Matrix multiplication time: 14.411000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.813000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.664000 seconds
+Matrix multiplication time: 7.384000 seconds
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.659000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.245000 秒
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.487000 seconds
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.226000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.927000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.046000 秒
+Matrix multiplication time: 12.290000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.713000 seconds
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.245000 seconds
+Matrix multiplication time: 8.817000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.144000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.176000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.367000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.053000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.921000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.434000 秒
+Matrix multiplication time: 13.308000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.266000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.404000 seconds
+Matrix multiplication time: 9.359000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[18, 19, 20, 21]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.709000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.257000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.384000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.570000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.136000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.368000 seconds
+[18, 19, 20, 21]
+Matrix multiplication time: 11.851000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.797000 seconds
+Matrix multiplication time: 8.194000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.907000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.880000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.748000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.188000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.321000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.866000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.821000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 14.142000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.221000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.451000 seconds
+Matrix multiplication time: 9.427000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.848000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.193000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.209000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.318000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.584000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.438000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 14.260000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.099000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.268000 seconds
+Matrix multiplication time: 9.517000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.422000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.279000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.527000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Matrix multiplication time: 7.111000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.321000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.288000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.702000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.397000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.542000 seconds
+Matrix multiplication time: 11.534000 seconds
+[14, 15, 16, 17]
+[18, 19, 20, 21]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 5.278000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.499000 秒
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.915000 seconds
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.203000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.032000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.267000 秒
+Matrix multiplication time: 12.912000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.352000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.278000 seconds
+Matrix multiplication time: 9.393000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.987000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：7.031000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.205000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.196000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.522000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.773000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 13.311000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.259000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.261000 seconds
+Matrix multiplication time: 10.016000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.598000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.455000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.379000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.651000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.293000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.274000 秒
+Matrix multiplication time: 12.741000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.168000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.220000 seconds
+Matrix multiplication time: 9.388000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.963000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：7.143000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.130000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.860000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.514000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.526000 秒
+Matrix multiplication time: 13.960000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.300000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.752000 seconds
+Matrix multiplication time: 9.640000 seconds
+[14, 15, 16, 17]
+[18, 19, 20, 21]
+[14, 15, 16, 17]
+[18, 19, 20, 21]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 5.332000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.400000 秒
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.194000 seconds
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.767000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.610000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.377000 秒
+Matrix multiplication time: 10.948000 seconds
+[18, 19, 20, 21]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.209000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.780000 seconds
+Matrix multiplication time: 11.500000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.092000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.957000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 2.366000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.391000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.175000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.500000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 12.805000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.335000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.765000 seconds
+Matrix multiplication time: 9.766000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.915000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.232000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.449000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.257000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.899000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.609000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 14.038000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.276000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.505000 seconds
+Matrix multiplication time: 9.741000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.667000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：4.662000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 3.823000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.364000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.858000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.603000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 12.688000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.085000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.168000 seconds
+Matrix multiplication time: 9.262000 seconds
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.348000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：6.153000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 4.513000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.991000 seconds
+[14, 15, 16, 17]
+FPU 压力测试完成，运行时间：5.657000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.575000 seconds
+[14, 15, 16, 17]
+Matrix multiplication time: 13.527000 seconds
+[14, 15, 16, 17]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.144000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.463000 seconds
+Matrix multiplication time: 9.606000 seconds
+{'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\fibonacci.c': 3.5532100200653076, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\fpu.c': 16.16307497024536, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\pi.c': 49.447237968444824, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\mem.c': 88.55063676834106, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\matrix.c': 97.04712724685669}
+
+进程已结束，退出代码为 0

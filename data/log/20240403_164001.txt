@@ -1,0 +1,402 @@
+C:\Users\MythS\.conda\envs\ProcessBA\python.exe "F:\Work Place\Python\ProcessBA\Train\main.py"
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.913000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.929000 seconds
+FPU 压力测试完成，运行时间：4.910000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.685000 秒
+斐波那契测试完成，运行时间: 10.526000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.556000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.625000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.739000 seconds
+FPU 压力测试完成，运行时间：4.841000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.655000 秒
+斐波那契测试完成，运行时间: 10.366000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.018000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.161000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.051000 seconds
+FPU 压力测试完成，运行时间：4.968000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.664000 秒
+斐波那契测试完成，运行时间: 10.598000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.647000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.663000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.720000 seconds
+FPU 压力测试完成，运行时间：5.098000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.724000 秒
+斐波那契测试完成，运行时间: 10.711000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.239000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.982000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.816000 seconds
+FPU 压力测试完成，运行时间：5.021000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.650000 秒
+斐波那契测试完成，运行时间: 10.663000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.119000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.042000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.773000 seconds
+FPU 压力测试完成，运行时间：5.128000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.652000 秒
+斐波那契测试完成，运行时间: 10.485000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.206000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.944000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.946000 seconds
+FPU 压力测试完成，运行时间：4.978000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.670000 秒
+斐波那契测试完成，运行时间: 10.665000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.160000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.657000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.078000 seconds
+FPU 压力测试完成，运行时间：4.981000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.627000 秒
+斐波那契测试完成，运行时间: 10.692000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.166000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.978000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.757000 seconds
+FPU 压力测试完成，运行时间：5.266000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.650000 秒
+斐波那契测试完成，运行时间: 10.691000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.412000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[14, 15, 16, 17]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.647000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.624000 seconds
+FPU 压力测试完成，运行时间：4.713000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.660000 秒
+斐波那契测试完成，运行时间: 10.260000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 9.986000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3][0, 1, 2, 3]
+
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.744000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.906000 seconds
+FPU 压力测试完成，运行时间：5.049000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.650000 秒
+斐波那契测试完成，运行时间: 10.618000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.149000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.043000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.864000 seconds
+FPU 压力测试完成，运行时间：4.906000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.626000 秒
+斐波那契测试完成，运行时间: 10.688000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.099000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.927000 seconds
+[14, 15, 16, 17]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.630000 seconds
+FPU 压力测试完成，运行时间：4.846000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.643000 秒
+斐波那契测试完成，运行时间: 10.325000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.037000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3][0, 1, 2, 3]
+
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.037000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.828000 seconds
+FPU 压力测试完成，运行时间：4.994000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.683000 秒
+斐波那契测试完成，运行时间: 10.635000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 9.956000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.967000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.132000 seconds
+FPU 压力测试完成，运行时间：4.995000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.715000 秒
+斐波那契测试完成，运行时间: 10.706000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.015000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[18, 19, 20, 21]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.633000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.639000 seconds
+FPU 压力测试完成，运行时间：6.414000 秒
+[14, 15, 16, 17]
+斐波那契测试完成，运行时间: 9.882000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.797000 秒
+斐波那契测试完成，运行时间: 10.146000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3][0, 1, 2, 3]
+
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.647000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.967000 seconds
+FPU 压力测试完成，运行时间：5.041000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.678000 秒
+斐波那契测试完成，运行时间: 10.549000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.503000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[18, 19, 20, 21]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.369000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.779000 seconds
+FPU 压力测试完成，运行时间：4.870000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.657000 秒
+斐波那契测试完成，运行时间: 10.353000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.389000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3][0, 1, 2, 3]
+
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.868000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.902000 seconds
+FPU 压力测试完成，运行时间：4.970000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.647000 秒
+斐波那契测试完成，运行时间: 10.565000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 9.979000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 0.971000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 1.083000 seconds
+FPU 压力测试完成，运行时间：4.909000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.672000 秒
+斐波那契测试完成，运行时间: 10.714000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 10.629000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+{'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\mem.c': 0.3302607536315918, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\fpu.c': 7.5120649337768555, 'F:\\Work Place\\Python\\ProcessBA\\Train\\..\\stress\\fibonacci.c': 6.296538591384888}

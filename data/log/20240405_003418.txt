@@ -1,0 +1,1811 @@
+
+C:\Users\MythS\.conda\envs\ProcessBA\python.exe F:\WorkSpace\Python\ProcessBA\Train\main.py
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 2.530000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 2.489000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：8.907000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.413000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.638000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：4.946000 秒
+Matrix multiplication time: 18.450000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 20.429000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.292000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.545000 seconds
+Matrix multiplication time: 17.088000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.953000 秒
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.926000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：4.790000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.169000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：4.758000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.915000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.574000 seconds
+[10, 11, 12, 13]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 15.218000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.594000 seconds
+Matrix multiplication time: 19.918000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.595000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.538000 秒
+Matrix multiplication time: 13.345000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.495000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.620000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 13.581000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 17.286000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.200000 秒
+斐波那契测试完成，运行时间: 6.902000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Matrix multiplication time: 21.829000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.932000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 25.498000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.495000 seconds
+Matrix multiplication time: 17.040000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.958000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.590000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：5.725000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.277000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.294000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.358000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 11.390000 秒
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.944000 秒
+Matrix multiplication time: 17.717000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.395000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.492000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.503000 秒
+Matrix multiplication time: 17.161000 seconds
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.195000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.493000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.932000 秒
+[16, 17, 18, 19]
+Matrix multiplication time: 12.108000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.439000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.793000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：8.848000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.498000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 24.040000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.005000 seconds
+Matrix multiplication time: 19.835000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.073000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.689000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.770000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.158000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.773000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 6.727000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：8.280000 秒
+Matrix multiplication time: 21.815000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.144000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 25.003000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 15.029000 seconds
+Matrix multiplication time: 17.120000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.020000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 6.930000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.382000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.230000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.917000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 16.573000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.910000 秒
+Matrix multiplication time: 22.785000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.376000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 26.141000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.620000 seconds
+Matrix multiplication time: 17.026000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.027000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.891000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.102000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 14.295000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.908000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 16.800000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.554000 秒
+Matrix multiplication time: 21.481000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 23.499000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.798000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.881000 seconds
+Matrix multiplication time: 17.173000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.917000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.923000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.026000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.386000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 15.710000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.858000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 18.802000 seconds
+[16, 17, 18, 19]
+Matrix multiplication time: 21.265000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 23.181000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.913000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.421000 seconds
+Matrix multiplication time: 17.249000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.966000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.126000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.423000 秒
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 13.197000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 13.021000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：4.960000 秒
+斐波那契测试完成，运行时间: 9.091000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.869000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.980000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.376000 seconds
+Matrix multiplication time: 23.292000 seconds
+[10, 11, 12, 13]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.196000 秒
+Matrix multiplication time: 12.015000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.964000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.527000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.231000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 14.251000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.570000 秒
+斐波那契测试完成，运行时间: 11.183000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Matrix multiplication time: 22.130000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 24.728000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.433000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.948000 seconds
+Matrix multiplication time: 17.177000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.042000 秒
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.058000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.166000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：5.818000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.705000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.705000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.748000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 11.657000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.197000 seconds
+Matrix multiplication time: 16.954000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.795000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.161000 秒
+Matrix multiplication time: 12.759000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 2.800000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.030000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 2.966000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.809000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.291000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.729000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.297000 秒
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.042000 seconds
+Matrix multiplication time: 16.378000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.145000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.555000 秒
+Matrix multiplication time: 12.799000 seconds
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.242000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.972000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.555000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.054000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.174000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.276000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 14.055000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.556000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.671000 seconds
+Matrix multiplication time: 19.628000 seconds
+[0, 1, 2, 3]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.509000 秒
+Matrix multiplication time: 12.722000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+[16, 17, 18, 19][16, 17, 18, 19]
+
+斐波那契测试完成，运行时间: 5.296000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.986000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.949000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.733000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.028000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：7.965000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.361000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 21.647000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.703000 seconds
+Matrix multiplication time: 23.463000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.939000 秒
+Matrix multiplication time: 17.251000 seconds
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.197000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：4.695000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.456000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.248000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.319000 seconds
+[16, 17, 18, 19]
+Matrix multiplication time: 12.767000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.854000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.120000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 20.148000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.562000 seconds
+Matrix multiplication time: 17.987000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.066000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.244000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.255000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.059000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.547000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 17.136000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.556000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.979000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.650000 seconds
+Matrix multiplication time: 21.525000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.879000 seconds
+Matrix multiplication time: 12.152000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.124000 秒
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 2.491000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.954000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.003000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.836000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.443000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.092000 秒
+Matrix multiplication time: 18.876000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 22.207000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.393000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 16.069000 seconds
+Matrix multiplication time: 17.022000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.120000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.254000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.992000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.388000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.131000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：8.233000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 18.706000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.333000 seconds
+Matrix multiplication time: 20.554000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 21.603000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.784000 seconds
+Matrix multiplication time: 17.086000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.035000 秒
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.180000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：7.191000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.855000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.738000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.811000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.196000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 15.053000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.737000 seconds
+Matrix multiplication time: 18.933000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.211000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.359000 秒
+Matrix multiplication time: 12.797000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 6.012000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：11.484000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.872000 seconds
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 7.933000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 16.612000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：5.856000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.984000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 21.646000 秒
+[16, 17, 18, 19]
+Matrix multiplication time: 23.352000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.184000 seconds
+Matrix multiplication time: 17.196000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.911000 秒
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.896000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.343000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：8.082000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.947000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.396000 seconds
+[0, 1, 2, 3]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.725000 秒
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.910000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.770000 seconds
+Matrix multiplication time: 19.130000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.695000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.877000 秒
+Matrix multiplication time: 12.709000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.688000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.794000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：7.131000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.537000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.934000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.173000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 14.432000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.510000 seconds
+Matrix multiplication time: 18.847000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.586000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 9.890000 秒
+Matrix multiplication time: 12.327000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.277000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.720000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.658000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.112000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.239000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.347000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 14.907000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.470000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.728000 seconds
+Matrix multiplication time: 19.758000 seconds
+[0, 1, 2, 3]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.610000 秒
+Matrix multiplication time: 12.726000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.987000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：7.531000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.184000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.663000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.063000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.139000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.825000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.860000 seconds
+Matrix multiplication time: 19.615000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.201000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.247000 秒
+Matrix multiplication time: 12.737000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.167000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.265000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：6.025000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.829000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.086000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.559000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.288000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.217000 seconds
+Matrix multiplication time: 18.109000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.693000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.413000 秒
+Matrix multiplication time: 12.711000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.652000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.721000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：6.901000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.150000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.679000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.043000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 14.190000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.813000 seconds
+Matrix multiplication time: 18.354000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.803000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.499000 秒
+Matrix multiplication time: 12.839000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.594000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.556000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：7.157000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.816000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.777000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.416000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.616000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.455000 seconds
+Matrix multiplication time: 20.136000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.859000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.599000 秒
+Matrix multiplication time: 12.508000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.519000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：4.708000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.626000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.985000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.181000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.687000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.064000 秒
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.272000 seconds
+Matrix multiplication time: 14.785000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.022000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.851000 秒
+Matrix multiplication time: 13.684000 seconds
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.288000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：4.649000 秒
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.961000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.130000 seconds
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.378000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：4.684000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.742000 秒
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.280000 seconds
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.043000 seconds
+Matrix multiplication time: 14.841000 seconds
+[10, 11, 12, 13]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.058000 秒
+Matrix multiplication time: 13.522000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.533000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：4.668000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.568000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.999000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.091000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.630000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.172000 秒
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.228000 seconds
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.063000 seconds
+Matrix multiplication time: 14.881000 seconds
+[10, 11, 12, 13]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.034000 秒
+Matrix multiplication time: 13.686000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[16, 17, 18, 19]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.574000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.664000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 2.565000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 6.949000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.316000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.775000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.020000 秒
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.849000 seconds
+Matrix multiplication time: 14.768000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.073000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.828000 秒
+Matrix multiplication time: 13.702000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 3.254000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.815000 seconds
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.099000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：7.111000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.320000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.744000 seconds
+FPU 压力测试完成，运行时间：5.275000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 16.561000 秒
+[10, 11, 12, 13]
+Matrix multiplication time: 18.032000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.000000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.199000 秒
+Matrix multiplication time: 13.737000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.514000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：8.401000 秒
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.116000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.494000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.652000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：6.424000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.180000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.593000 seconds
+Matrix multiplication time: 21.086000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.546000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.012000 秒
+Matrix multiplication time: 14.000000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.001000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：6.444000 秒
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.859000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.653000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.043000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：7.795000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 16.460000 秒
+[10, 11, 12, 13]
+Matrix multiplication time: 21.909000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.753000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 9.527000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 12.658000 秒
+Matrix multiplication time: 13.316000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 3.179000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：5.724000 秒
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.227000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 9.982000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.824000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.281000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：6.157000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.674000 seconds
+Matrix multiplication time: 19.476000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.153000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.840000 秒
+Matrix multiplication time: 12.734000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 5.425000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.401000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.262000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 16.225000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.689000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 18.495000 seconds
+[16, 17, 18, 19]
+Matrix multiplication time: 21.825000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 22.123000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.821000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.895000 seconds
+Matrix multiplication time: 17.104000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.942000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.240000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：5.045000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.011000 seconds
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.100000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 6.438000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：10.220000 秒
+Matrix multiplication time: 18.784000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 13.189000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 21.439000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.070000 seconds
+Matrix multiplication time: 17.294000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.966000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.876000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.243000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.003000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.327000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.587000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Matrix multiplication time: 19.910000 seconds
+FPU 压力测试完成，运行时间：10.287000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.160000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 23.128000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 17.249000 seconds
+Matrix multiplication time: 17.248000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.044000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.131000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.524000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.110000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：4.923000 秒
+斐波那契测试完成，运行时间: 8.581000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 17.124000 seconds
+[16, 17, 18, 19]
+Matrix multiplication time: 19.373000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 22.371000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.416000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.468000 seconds
+Matrix multiplication time: 17.058000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.933000 秒
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.579000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：7.034000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 4.169000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 10.246000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.613000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.768000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 15.309000 秒
+[0, 1, 2, 3]
+Matrix multiplication time: 18.323000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.801000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.527000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.431000 秒
+Matrix multiplication time: 12.927000 seconds
+[10, 11, 12, 13]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 2.423000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：5.552000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.289000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.736000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.344000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 11.185000 seconds
+[0, 1, 2, 3]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.325000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.467000 seconds
+Matrix multiplication time: 18.013000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.837000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.659000 秒
+Matrix multiplication time: 12.790000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 7.168000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：8.294000 秒
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.586000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.305000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：9.319000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 19.445000 seconds
+[16, 17, 18, 19]
+Matrix multiplication time: 23.076000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 11.056000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 23.535000 秒
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.670000 seconds
+Matrix multiplication time: 11.744000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.078000 秒
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 8.384000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.377000 秒
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 6.334000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 14.995000 seconds
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 17.854000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：9.104000 秒
+Matrix multiplication time: 20.883000 seconds
+[16, 17, 18, 19]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 24.603000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.830000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.436000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 9.917000 秒
+Matrix multiplication time: 17.242000 seconds
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+[10, 11, 12, 13]
+[16, 17, 18, 19]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 6.972000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：7.196000 秒
+斐波那契测试完成，运行时间: 7.927000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+[16, 17, 18, 19]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.693000 seconds
+[16, 17, 18, 19]
+斐波那契测试完成，运行时间: 9.551000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Matrix multiplication time: 18.771000 seconds
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：10.789000 秒
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.899000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 23.722000 秒
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 14.038000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 9.906000 秒
+Matrix multiplication time: 17.178000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.746000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：6.205000 秒
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 4.057000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.108000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.978000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：4.611000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.169000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.158000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.261000 seconds
+Matrix multiplication time: 18.430000 seconds
+[0, 1, 2, 3]
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.999000 秒
+Matrix multiplication time: 12.576000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.893000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.852000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：7.263000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.212000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.052000 seconds
+[0, 1, 2, 3]
+FPU 压力测试完成，运行时间：5.923000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.995000 秒
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.969000 seconds
+Matrix multiplication time: 19.751000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 7.796000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.644000 秒
+Matrix multiplication time: 12.495000 seconds
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 3.229000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[16, 17, 18, 19]
+FPU 压力测试完成，运行时间：6.254000 秒
+[0, 1, 2, 3]
+斐波那契测试完成，运行时间: 5.280000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 9.714000 seconds
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.954000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：5.532000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 14.214000 秒
+[0, 1, 2, 3]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 5.640000 seconds
+Matrix multiplication time: 17.420000 seconds
+[0, 1, 2, 3]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 7.292000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 10.549000 秒
+Matrix multiplication time: 12.662000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.002000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：7.074000 秒
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.826000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 12.205000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 14.095000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：6.968000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 18.808000 秒
+[10, 11, 12, 13]
+Matrix multiplication time: 19.714000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.080000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 10.261000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.351000 秒
+Matrix multiplication time: 14.279000 seconds
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 4.969000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+[10, 11, 12, 13]
+斐波那契测试完成，运行时间: 5.217000 seconds
+The 42th term of Fibonacci sequence is: 267914296
+FPU 压力测试完成，运行时间：9.955000 秒
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 12.638000 seconds
+[10, 11, 12, 13]
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 13.852000 seconds
+[10, 11, 12, 13]
+FPU 压力测试完成，运行时间：6.493000 秒
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 19.256000 秒
+[10, 11, 12, 13]
+Matrix multiplication time: 21.172000 seconds
+[10, 11, 12, 13]
+计算得到的圆周率（迭代次数 500000）：3.1415906536
+圆周率运行时间: 8.557000 seconds
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+内存压力测试时间: 8.819000 seconds
+在范围内 50000000 中最大的素数是: 49999991
+50000000素数计算时间: 13.277000 秒
+Matrix multiplication time: 13.648000 seconds
+训练轮次:50
+线程数:9
+
+
+{'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fibonacci.c': -37.85599136352539, 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fpu.c': 80.55275416374207, 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\pi.c': 104.80742979049683, 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\mem.c': 115.26892924308777, 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\matrix.c': 229.78574991226196, 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\prime.c': 187.56169199943542}
+{'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fibonacci.c': [2.5737361907958984, 3.9591407775878906, 13.63072156906128, 5.634270429611206, 5.228930711746216, 9.942610025405884, 7.100068807601929, 8.987050533294678, 6.0630784034729, 7.190073490142822, 8.049998998641968, 3.103483200073242, 2.8420674800872803, 5.274731874465942, 5.4199182987213135, 5.242495536804199, 5.310988664627075, 2.519400119781494, 5.302173852920532, 4.223434925079346, 6.100970983505249, 3.9469406604766846, 3.7227234840393066, 3.3280632495880127, 4.018890142440796, 3.238158702850342, 3.6916122436523438, 3.6532039642333984, 3.554781913757324, 5.329583406448364, 3.5672054290771484, 3.609332323074341, 3.3231351375579834, 5.602410316467285, 5.148902893066406, 3.298764944076538, 5.542784929275513, 5.288816452026367, 8.409467220306396, 8.208332061767578, 3.6498966217041016, 2.4651973247528076, 7.250240325927734, 8.487287282943726, 7.970641851425171, 3.781856060028076, 3.93882155418396, 3.2612459659576416, 5.256814002990723, 5.248728275299072], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fpu.c': [9.640821695327759, 5.515676021575928, 10.35924243927002, 6.449908256530762, 11.669286251068115, 11.581718683242798, 11.167784452438354, 10.900845527648926, 9.796579599380493, 9.155946493148804, 9.353537321090698, 6.546761751174927, 5.764396905899048, 7.703317642211914, 11.71584439277649, 5.4389262199401855, 10.839844465255737, 8.896343469619751, 10.134959936141968, 7.910882234573364, 12.273951053619385, 8.80003809928894, 7.848779201507568, 7.443078279495239, 8.250519275665283, 6.737078428268433, 7.62174654006958, 7.865700960159302, 5.44206166267395, 5.368903398513794, 5.382288932800293, 5.362899303436279, 7.840909719467163, 9.295382738113403, 7.179284334182739, 6.463966131210327, 9.214295625686646, 5.775434970855713, 9.78078031539917, 8.410192728042603, 7.733266592025757, 6.255947589874268, 9.02657413482666, 10.11533784866333, 7.977821350097656, 6.915703296661377, 7.973603963851929, 6.972158908843994, 7.891268968582153, 10.667766571044922], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\pi.c': [13.087741374969482, 10.598897218704224, 12.32370114326477, 11.062316656112671, 10.192002058029175, 12.909940004348755, 12.085832595825195, 15.039720296859741, 16.557771682739258, 13.729230403900146, 15.011269807815552, 9.383666753768921, 9.96787166595459, 9.731889009475708, 12.448347091674805, 10.13547682762146, 7.942428112030029, 11.134027004241943, 7.713151454925537, 10.426071166992188, 12.677941799163818, 10.604223728179932, 11.233048677444458, 10.80861759185791, 10.370825290679932, 7.496100902557373, 9.857971668243408, 11.492250680923462, 7.882538795471191, 7.813341379165649, 7.758249044418335, 10.0092453956604, 10.985040664672852, 12.159830331802368, 13.340050458908081, 10.511693477630615, 16.954493284225464, 10.780247926712036, 12.029721021652222, 12.832256078720093, 10.921353101730347, 10.427638292312622, 12.337094068527222, 15.696939706802368, 7.672079086303711, 10.646134376525879, 9.888062238693237, 10.389338254928589, 14.795043468475342, 13.33087420463562], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\mem.c': [13.104805707931519, 11.024681806564331, 17.877827167510986, 7.715621471405029, 13.04666805267334, 13.220526456832886, 17.041572332382202, 17.275914907455444, 19.285335063934326, 13.68766975402832, 14.752866983413696, 10.152103900909424, 6.264423131942749, 10.617889165878296, 6.416370630264282, 12.76486349105835, 17.59361958503723, 6.396782636642456, 19.185332536697388, 12.291985750198364, 17.082197189331055, 12.880896806716919, 11.391582727432251, 11.706935405731201, 12.518504858016968, 11.52964472770691, 12.135077238082886, 12.233807563781738, 7.454671859741211, 7.415369987487793, 7.443101167678833, 7.401781320571899, 6.256523132324219, 15.127158880233765, 14.508260488510132, 10.74764370918274, 18.944132804870605, 7.465644121170044, 6.3246986865997314, 17.570637464523315, 12.066666603088379, 11.634666442871094, 19.901371717453003, 18.339191436767578, 15.224105596542358, 10.552432775497437, 12.539499521255493, 11.472731113433838, 12.686342477798462, 14.343380689620972], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\matrix.c': [18.550171375274658, 19.991251945495605, 21.894100666046143, 17.795994997024536, 12.173476219177246, 21.8863627910614, 22.857820987701416, 21.55265784263611, 21.339989185333252, 23.360196113586426, 22.192615509033203, 17.030330657958984, 16.455655336380005, 19.696165084838867, 23.526973962783813, 12.838474035263062, 21.601975679397583, 18.94446325302124, 20.62032914161682, 18.99860692024231, 23.427829027175903, 19.204196214675903, 18.91423511505127, 19.81866145133972, 19.68077254295349, 18.174736499786377, 18.425997018814087, 20.197611093521118, 14.85318112373352, 14.905951499938965, 14.946209907531738, 14.842684984207153, 18.102026224136353, 21.14984965324402, 21.996301651000977, 19.548704624176025, 21.901575565338135, 18.85971474647522, 20.074967861175537, 19.443455457687378, 18.389582633972168, 18.084451913833618, 23.151584148406982, 20.95310068130493, 18.85882544517517, 18.494210481643677, 19.81842827796936, 17.50133228302002, 19.781258821487427, 21.247089385986328], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\prime.c': [20.636217832565308, 15.410774230957031, 25.70928406715393, 11.581493854522705, 24.248192071914673, 25.19855785369873, 26.3411648273468, 23.696573495864868, 23.3842294216156, 20.182552099227905, 24.934924602508545, 11.852026224136353, 12.497747421264648, 14.25053334236145, 21.868067741394043, 20.35468101501465, 20.17611265182495, 22.415359258651733, 21.800939798355103, 15.258393049240112, 21.842986583709717, 13.924797773361206, 14.630672931671143, 15.106682300567627, 14.017444372177124, 13.48320484161377, 14.37985110282898, 13.804460287094116, 13.27661943435669, 12.949730157852173, 13.374364614486694, 13.232748746871948, 16.755067586898804, 19.370893716812134, 16.6666738986969, 10.183485746383667, 22.319765329360962, 21.635106801986694, 23.326765060424805, 22.567134141921997, 15.498465776443481, 13.524121761322021, 23.729692220687866, 24.796746730804443, 23.913230419158936, 13.370657444000244, 14.183942079544067, 14.4265615940094, 19.008357524871826, 19.46075701713562]}
+{'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fibonacci.c': [2.5029067993164062, 5.348046541213989, 7.105315208435059, 5.322659730911255, 9.89575719833374, 6.828841686248779, 8.990712881088257, 8.058888673782349, 5.730175971984863, 9.16344666481018, 11.26035189628601, 3.399712324142456, 2.9759373664855957, 3.6590538024902344, 8.067967176437378, 9.888212442398071, 8.649312734603882, 7.91572642326355, 9.213847160339355, 3.8693082332611084, 8.065265417098999, 4.358859300613403, 4.0519232749938965, 4.693963527679443, 4.285032510757446, 3.3160159587860107, 3.9696364402770996, 3.580005407333374, 3.6358284950256348, 3.3900208473205566, 3.5783441066741943, 2.57383131980896, 4.129920244216919, 5.255575180053711, 6.254137754440308, 5.267266511917114, 7.37384557723999, 6.478632688522339, 8.66348910331726, 8.744569540023804, 4.266099214553833, 5.300240755081177, 9.531736612319946, 6.422863960266113, 9.695152759552002, 4.127601385116577, 3.947519063949585, 5.2890541553497314, 6.019941091537476, 5.236621856689453], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\fpu.c': [4.960097074508667, 4.765543699264526, 8.278483152389526, 8.111467599868774, 8.923609495162964, 8.352003574371338, 8.036116123199463, 7.626668214797974, 8.00131869316101, 4.973650693893433, 7.644952297210693, 4.759446620941162, 4.752859354019165, 6.390164613723755, 8.071211576461792, 7.319831848144531, 7.726025581359863, 7.170825242996216, 8.254533290863037, 5.234989881515503, 5.932527780532837, 5.95721697807312, 5.214141607284546, 5.477087736129761, 5.210179090499878, 5.5813682079315186, 5.072044134140015, 5.4434919357299805, 4.696914434432983, 4.692075490951538, 4.638667345046997, 5.786282777786255, 5.285719871520996, 6.589496374130249, 7.96308708190918, 6.187082767486572, 8.765419483184814, 10.27933645248413, 10.30224347114563, 4.93574070930481, 5.787607192993164, 5.361719131469727, 9.391834735870361, 9.208511590957642, 10.903233528137207, 4.621191740036011, 5.991993188858032, 5.563558340072632, 7.162740468978882, 6.52029824256897], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\pi.c': [9.312844514846802, 9.34077763557434, 11.1394784450531, 9.414940595626831, 11.539570331573486, 12.217970132827759, 11.450968980789185, 11.011313915252686, 9.986571311950684, 9.39098596572876, 11.646392345428467, 7.209038257598877, 7.317810297012329, 8.575920104980469, 10.81985092163086, 10.199437141418457, 12.78757643699646, 11.429131984710693, 12.408698081970215, 7.773058176040649, 6.993293285369873, 7.890776634216309, 7.536309242248535, 7.494224548339844, 7.985166311264038, 8.288248777389526, 6.822362422943115, 7.485748291015625, 7.03324294090271, 7.054988384246826, 7.072615146636963, 7.082578420639038, 8.010662078857422, 8.781877994537354, 8.89958643913269, 8.70958423614502, 9.860078811645508, 11.096357822418213, 11.236840724945068, 11.457855463027954, 7.825999975204468, 7.532011032104492, 11.195457220077515, 9.903502702713013, 12.975900411605835, 7.168718338012695, 7.981232643127441, 7.303319931030273, 8.093727111816406, 8.631564617156982], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\mem.c': [12.648382663726807, 9.673056840896606, 13.09471583366394, 14.729604005813599, 12.440224647521973, 15.152562856674194, 11.868494510650635, 12.05581283569336, 12.526147842407227, 5.959612131118774, 13.185699701309204, 6.889248847961426, 9.157330513000488, 8.783560752868652, 14.71728777885437, 12.659887790679932, 12.0691978931427, 16.379019021987915, 11.881380081176758, 8.32438349723816, 12.287603855133057, 7.8798136711120605, 7.788241386413574, 7.877436637878418, 8.29684329032898, 7.816639423370361, 7.920939922332764, 7.985825300216675, 6.3498382568359375, 6.36569356918335, 6.309795141220093, 5.925142288208008, 5.814841032028198, 8.695189476013184, 9.784838676452637, 10.273905038833618, 11.99815821647644, 13.516775369644165, 17.730080366134644, 11.570862293243408, 8.63901662826538, 7.928087472915649, 10.774057626724243, 12.703508138656616, 14.265625476837158, 7.365154266357422, 7.971860885620117, 5.711945056915283, 10.444468021392822, 9.158792972564697], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\matrix.c': [17.151944160461426, 13.408416509628296, 17.12182378768921, 17.22759437561035, 19.969054698944092, 17.194695711135864, 17.099948406219482, 17.23819899559021, 17.320666790008545, 12.061673402786255, 17.246508598327637, 12.80656361579895, 12.843075037002563, 12.77231216430664, 17.313474655151367, 18.204732656478882, 12.196771144866943, 17.100327014923096, 17.15066909790039, 12.850425481796265, 17.258310079574585, 12.75874662399292, 12.372658491134644, 12.771013975143433, 12.784999370574951, 12.755798816680908, 12.891841888427734, 12.559568166732788, 13.738081932067871, 13.571157932281494, 13.732208490371704, 13.746117115020752, 13.780614137649536, 14.058624982833862, 13.367724418640137, 12.784620523452759, 17.17083501815796, 17.361934900283813, 17.31546187400818, 17.12216830253601, 12.97608232498169, 12.838435888290405, 11.792829036712646, 17.323871850967407, 17.254308938980103, 12.622604131698608, 12.54742956161499, 12.710088014602661, 14.325145959854126, 13.69822907447815], 'F:\\WorkSpace\\Python\\ProcessBA\\Train\\..\\stress\\prime.c': [18.968498468399048, 12.559238195419312, 18.97327446937561, 19.523865699768066, 19.08419632911682, 19.034069061279297, 19.042471170425415, 18.932515144348145, 18.980872869491577, 10.209140539169312, 19.054648876190186, 10.171930313110352, 10.56537127494812, 10.51943039894104, 18.95215129852295, 19.082128047943115, 19.135432481765747, 19.136285066604614, 19.047606468200684, 10.368718385696411, 18.923322677612305, 10.917460203170776, 9.899690866470337, 10.62171745300293, 10.255574703216553, 10.423897981643677, 10.509655714035034, 10.609704971313477, 12.86315655708313, 13.068857669830322, 13.044641494750977, 12.839001417160034, 13.211481809616089, 13.026186227798462, 12.673536777496338, 13.908611536026001, 18.952291250228882, 18.978654861450195, 19.05615472793579, 18.945661544799805, 10.443068981170654, 10.669248342514038, 19.08924651145935, 9.927061796188354, 9.916088819503784, 11.012035369873047, 10.657498359680176, 10.56022572517395, 13.36235785484314, 13.289184093475342]}
+
+进程已结束，退出代码为 0

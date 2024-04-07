@@ -1,23 +1,63 @@
 import os
 import subprocess
 import psutil
+import platform
 
 
 def set_cpu_affinity(pid, action):
     """
     设置进程的亲和性
     """
-    # 提取 CPU 核心列表
     process = psutil.Process(pid)
-
-    # 设置 CPU 亲和性
-    if action == 0:
-        cpu_cores = [0, 1, 2, 3]
-    elif action == 1:
-        cpu_cores = [15, 16, 17, 18]
-    elif action == 2:
-        cpu_cores = [19, 20, 21, 22]
-    process.cpu_affinity(cpu_cores)
+    cpu_cores = [0, 1, 2, 3]
+    logical_core_nums = psutil.cpu_count(logical=True)
+    physical_core_nums = psutil.cpu_count(logical=False)
+    if logical_core_nums != physical_core_nums & logical_core_nums != 2 * physical_core_nums:
+        if logical_core_nums <= 12:
+            if action == 0:
+                cpu_cores = [0, 1, 2, 3]
+            elif action == 1:
+                cpu_cores = [4, 5, 6, 7]
+            elif action == 2:
+                cpu_cores = [8, 9, 10, 11]
+            process.cpu_affinity(cpu_cores)
+        elif logical_core_nums <= 20:
+            # 设置 CPU 亲和性
+            if action == 0:
+                cpu_cores = [0, 1, 2, 3]
+            elif action == 1:
+                cpu_cores = [10, 11, 12, 13]
+            elif action == 2:
+                cpu_cores = [16, 17, 18, 19]
+            process.cpu_affinity(cpu_cores)
+        elif logical_core_nums <= 24:
+            # 设置 CPU 亲和性
+            if action == 0:
+                cpu_cores = [0, 1, 2, 3]
+            elif action == 1:
+                cpu_cores = [14, 15, 16, 17]
+            elif action == 2:
+                cpu_cores = [18, 19, 20, 21]
+            process.cpu_affinity(cpu_cores)
+        else:
+            # 设置 CPU 亲和性
+            if action == 0:
+                cpu_cores = [0, 1, 2, 3]
+            elif action == 1:
+                cpu_cores = [14, 15, 16, 17]
+            elif action == 2:
+                cpu_cores = [18, 19, 20, 21]
+            process.cpu_affinity(cpu_cores)
+    else:
+        # 设置 CPU 亲和性
+        if action == 0:
+            cpu_cores = [0, 1, 2, 3]
+        elif action == 1:
+            cpu_cores = [4, 5, 6, 7]
+        elif action == 2:
+            cpu_cores = [8, 9, 10, 11]
+        process.cpu_affinity(cpu_cores)
+    return cpu_cores
 
 
 def launch_c_program(c_program_path, cpu_cores):

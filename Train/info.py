@@ -16,6 +16,12 @@ def process_tensor(tensor):
     return tensor
 
 
+def get_core_info():
+    core_nums = psutil.cpu_count(logical=True)
+
+    return core_nums,
+
+
 def get_system_info(is_save):
     cpu_frequency_tensor = process_tensor(torch.tensor(psutil.cpu_freq()))
     cpu_percent_tensor = process_tensor(torch.tensor(psutil.cpu_percent(percpu=True)))

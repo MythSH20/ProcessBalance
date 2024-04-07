@@ -2,8 +2,8 @@
 #include <time.h>
 
 double calculate_pi(int iterations)
-    double pi = 0.0;
 {
+    double pi = 0.0;
     int sign = 1;
     for (int i = 0; i < iterations; i++)
     {
@@ -20,7 +20,7 @@ int main()
 
     int i = 0;
     double pi = 0.;
-    int iterations = 1000000; // 迭代次数，越大结果越精确
+    long long int iterations = 500000; // 迭代次数，越大结果越精确
 
     start = clock(); // 记录开始时间
 
@@ -34,7 +34,7 @@ int main()
     cpu_time_used = ((double)(end - start)) / CLOCKS_PER_SEC; // 计算执行时间，单位为秒
 
     printf("计算得到的圆周率（迭代次数 %d）：%.10f\n", iterations, pi);
-    printf("Execution time: %f seconds\n", cpu_time_used);
+    printf("圆周率运行时间: %f seconds\n", cpu_time_used);
 
     return 0;
 }

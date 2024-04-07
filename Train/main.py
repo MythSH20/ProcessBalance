@@ -1,3 +1,4 @@
+import concurrent
 import os
 import re
 import subprocess
@@ -45,9 +46,44 @@ class QNetwork(nn.Module):
 
 ACTIONS = [0, 1, 2]
 max_cores = 32
-state_dim = 123
+
 action_dim = 3  # 3簇核心
-q_network = QNetwork(state_dim, action_dim)
+
+state_dim = 100
+
+timing = {}
+files = []
+origin_execute_times = {}
+final_execute_times = {}
+
+
+def save_log(file, time_data, dictionary, module):
+    file = file.split('\\')[-1]
+    if module == 1:
+        if file in dictionary:
+            dictionary[file] += time_data
+        else:
+            dictionary[file] = time_data
+    elif module == 2:
+        if file in dictionary:
+            # Check if the value is a list, if not, convert it to a list
+            if not isinstance(dictionary[file], list):
+                dictionary[file] = [dictionary[file]]
+            # Append the time data to the list
+            dictionary[file].append(time_data)
+        else:
+            # If index doesn't exist, create a new entry with the time value as a list
+            dictionary[file] = [time_data]
+
+
+def get_sys_dim():
+    pid = os.getpid()
+    state = get_state(pid)
+    state_dim = state.size(0)
+    return state_dim
+
+
+q_network = QNetwork(get_sys_dim(), action_dim)
 
 criterion = nn.MSELoss()
 optimizer = optim.Adam(q_network.parameters(), lr=0.001)
@@ -74,7 +110,7 @@ def q_learning(state, action, reward, next_state, gamma=0.99):
     q_values = q_network(state)
     next_q_values = q_network(next_state)
     target = reward + gamma * torch.max(next_q_values)
-    print(action)
+    # print(action)`
     loss = criterion(q_values[action], target)
     optimizer.zero_grad()
     loss.backward()
@@ -116,7 +152,8 @@ def compile_and_execute_c_file(c_file):
         execute_pid = execute_process.pid
         state1 = get_state(execute_pid)
         action = choose_action(state1)
-        set_cpu_affinity(execute_pid, action)
+        affinity = set_cpu_affinity(execute_pid, action)
+        print(str(affinity))
 
         '''调整亲和性并等待结束 '''
         action = choose_action(state1)
@@ -128,7 +165,8 @@ def compile_and_execute_c_file(c_file):
         start_time = time.time()
         execute_process = subprocess.Popen(command)
         execute_pid = execute_process.pid
-        set_cpu_affinity(execute_pid, action)
+        affinity = set_cpu_affinity(execute_pid, action)
+        print(str(affinity))
         execute_pid = execute_process.pid
         state2 = get_state(execute_pid)
         execute_process.wait()
@@ -137,8 +175,11 @@ def compile_and_execute_c_file(c_file):
 
         '''Q更新'''
         time_ = time1 - time2
+        save_log(c_file, time_, timing, 1)
+        save_log(c_file, time1, origin_execute_times, 2)
+        save_log(c_file, time2, final_execute_times, 2)
+
         reward = cal_reward(time_)
-        print(state1, "\n", state2)
         q_learning(state1, action, reward, state2)
 
         '''linux下执行'''
@@ -162,14 +203,7 @@ def compile_and_execute_c_file(c_file):
     # return process_name, compile_time, execute_time
 
 
-def train(epochs):
-    system_core_nums = 32
-
-    # 初始化 Q 网络
-    state_dim = 11  # 输入维度，根据状态的特征数确定
-    action_dim = 8  # 输出维度，根据动作的数量确定
-    q_network = QNetwork(state_dim, action_dim)
-
+def train(epochs, num_threads):
     # 定义损失函数和优化器
     criterion = nn.MSELoss()
     optimizer = optim.Adam(q_network.parameters(), lr=0.001)
@@ -177,26 +211,45 @@ def train(epochs):
     for epoch in range(epochs):
         system_info = get_system_info(True)
         c_files = get_c_files(stress_folder)
-        threads = []
-        # 多线程地启动
-        start_time = time.time()
-        for program in c_files:
-            compile_and_execute_c_file(program)
-            # thread = threading.Thread(target=self.compile_and_execute_c_file, args=(program))
-            # thread.start()
-            # threads.append(thread)
+
+        with concurrent.futures.ThreadPoolExecutor(max_workers=num_threads) as executor:
+            # 提交编译和执行任务
+            futures = [executor.submit(compile_and_execute_c_file, c_file) for c_file in c_files]
+
+            # 等待所有任务完成
+            concurrent.futures.wait(futures)
+    torch.save(q_network.state_dict(), '../model/q_network.pth')
 
 
-def predict():
+def little_stress(epoc, num_threads):
+    train(epoc, num_threads)
+    print("训练轮次:" + str(epoc))
+    print("线程数:" + str(num_threads))
+    print(timing)
+
+    average_time = {}
+    for filename, times in origin_execute_times.items():
+        average_time[filename] = sum(times) / len(times)
+    print("origin_execute_times_average:" + str(average_time))
+
+    for filename, times in final_execute_times.items():
+        average_time[filename] = sum(times) / len(times)
+    print("final_execute_times_average:" + str(average_time))
+    print(origin_execute_times)
+    print(final_execute_times)
+    pass
+
+
+def large_stress(epoc, num_threads):
     pass
 
 
 # start process->get pid->choose action(affinity) by state->set affinity->return state->update q value
 def main():
-    epoc = 3
-    actions = 32
+    epoc = 50
+    num_threads = 12
 
-    train(epoc)
+    little_stress(epoc, num_threads)
 
 
 if __name__ == "__main__":

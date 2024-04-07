@@ -1,0 +1,403 @@
+C:\Users\MythS\.conda\envs\ProcessBA\python.exe "F:\Work Place\Python\ProcessBA\Train\train.py" 
+Function execution time: 11.903000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.809000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.573000 秒
+FPU 压力测试完成，运行时间：5.649000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 17.937000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 17.925000 seconds
+Function execution time: 21.904000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 21.948000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.176000 秒
+FPU 压力测试完成，运行时间：5.662000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.010000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 18.470000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.596000 seconds
+Function execution time: 11.597000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.654000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.104000 秒
+FPU 压力测试完成，运行时间：5.130000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.910000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.839000 seconds
+Function execution time: 12.019000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.501000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.446000 秒
+FPU 压力测试完成，运行时间：5.388000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.009000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.815000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.722000 seconds
+Function execution time: 11.246000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.254000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.171000 秒
+FPU 压力测试完成，运行时间：5.186000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.006000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.379000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.515000 seconds
+Function execution time: 11.550000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.779000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.150000 秒
+FPU 压力测试完成，运行时间：5.179000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.006000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.592000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.501000 seconds
+Function execution time: 11.356000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.302000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.097000 秒
+FPU 压力测试完成，运行时间：5.122000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.194000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.859000 seconds
+Function execution time: 10.928000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 10.855000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：4.999000 秒
+FPU 压力测试完成，运行时间：5.002000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.006000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.802000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.860000 seconds
+Function execution time: 10.900000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.594000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.324000 秒
+FPU 压力测试完成，运行时间：5.304000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.006000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.605000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.663000 seconds
+Function execution time: 11.514000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.149000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.000000 秒
+FPU 压力测试完成，运行时间：5.168000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.435000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.449000 seconds
+Function execution time: 11.989000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.461000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.140000 秒
+FPU 压力测试完成，运行时间：5.054000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.872000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.858000 seconds
+Function execution time: 10.940000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.307000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.109000 秒
+FPU 压力测试完成，运行时间：5.149000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.167000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.426000 seconds
+Function execution time: 11.378000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.343000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.237000 秒
+FPU 压力测试完成，运行时间：5.223000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 16.152000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.824000 seconds
+Function execution time: 11.391000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.507000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.359000 秒
+FPU 压力测试完成，运行时间：5.109000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.931000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 16.558000 seconds
+Function execution time: 12.296000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.989000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.385000 秒
+FPU 压力测试完成，运行时间：5.407000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 17.891000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.929000 seconds
+Function execution time: 11.876000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.581000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.275000 秒
+FPU 压力测试完成，运行时间：5.088000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.579000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.786000 seconds
+Function execution time: 11.658000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.824000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.422000 秒
+FPU 压力测试完成，运行时间：5.294000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.358000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.409000 seconds
+Function execution time: 11.232000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 11.614000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.352000 秒
+FPU 压力测试完成，运行时间：5.353000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.007000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.615000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.266000 seconds
+Function execution time: 10.982000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 10.870000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.019000 秒
+FPU 压力测试完成，运行时间：5.120000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.008000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.009000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.275000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 14.621000 seconds
+Function execution time: 12.025000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+Function execution time: 12.332000 seconds
+The 45th term of Fibonacci sequence is: 1134903170
+FPU 压力测试完成，运行时间：5.215000 秒
+FPU 压力测试完成，运行时间：5.267000 秒
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.006000 seconds
+Memory freed.
+Memory allocated successfully.
+Memory filled with data.
+Memory access complete.
+Execution time: 0.009000 seconds
+Memory freed.
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.325000 seconds
+计算得到的圆周率（迭代次数 1000000）：3.1415916536
+Execution time: 15.257000 seconds
+
+进程已结束，退出代码为 0

@@ -14,3 +14,8 @@ save_folder = "save"
 stress_folder = os.path.join(os.path.dirname(__file__), '..', 'stress')
 
 gcc_path = r"D:\IDE\mingw64\bin"
+
+
+def get_current_directory():
+    current_directory = os.getcwd()
+    return current_directory
